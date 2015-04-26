@@ -1,0 +1,89 @@
+#header {
+    background-color:black;
+    color:white;
+    font-family: Arial;
+    text-align:center;
+    float:top;
+    margin:0;
+}
+#container {
+    position:relative;
+}
+#nav {
+    line-height:30px;
+    background-color:black;
+    color:white;
+    font-family: Arial;
+    float:left;
+    width:100px;
+    padding:10px; 
+}
+#section {
+    width:600px;
+    font-family: Arial;
+    float:right;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    font-family: Arial;
+    text-align:center;
+    padding:5px; 
+}
+h1.head {
+    font-size:36pt;
+}
+a:link    {
+    color:blue; 
+    background-color:transparent; 
+    text-decoration:none;
+}
+a:visited {
+    color:darkblue; 
+    background-color:transparent; 
+    text-decoration:none;
+}
+a:hover   {
+    color:darkblue; 
+    background-color:transparent; 
+    text-decoration:none;
+}
+a:active  {
+    color:darkblue; 
+    background-color:transparent; 
+    text-decoration:none;
+}
+a.navlink {
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a.navlink:hover {
+    color:grey;
+    background-color:transparent;
+    font-weight:bold;
+    text-decoration:none;
+}
+a.currentpage {
+    color:grey; 
+    background-color:transparent; 
+    text-decoration:none;
+}
+a.currentpage:hover {
+    color:grey; 
+    background-color:transparent; 
+    font-weight:bold;
+    text-decoration:none;
+}
+a.email {
+    color:white; 
+    background-color:transparent; 
+    text-decoration:none;
+}
+a.email:hover {
+    color:grey; 
+    background-color:transparent; 
+    text-decoration:none;
+}
