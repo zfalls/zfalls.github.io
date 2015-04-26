@@ -3,6 +3,10 @@
     color:white;
     font-family: Arial;
     text-align:center;
+    position:absolute;
+    top:10px;
+    width:1140px;
+    left:130px;   
     float:top;
     margin:0;
 }
@@ -11,9 +15,11 @@
     background-color:black;
     color:white;
     font-family: Arial;
-    float:left;
+    position:fixed;
+    top:10px;
+    left:10px;
     width:100px;
-    height:100%;
+    height:700px;
     padding:10px; 
 }
 #section {
