@@ -28,12 +28,12 @@
     width:500px;
     font-family: Arial;
     position:absolute;
-    top:100px;
-    left:130px;
-    padding:10px; 
+    top:12vw;
+    left:13vw;
+    padding:1vw; 
 }
 h1.head {
-    font-size:36pt;
+    font-size:4vw;
 }
 a:link    {
     color:blue; 
