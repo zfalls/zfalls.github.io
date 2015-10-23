@@ -1,89 +1,37 @@
-#header {
-    background-color:black;
-    color:white;
-    font-family: Arial;
-    text-align:center;
-    position:absolute;
-    top:1vw;
-    left:13vw;   
-    width:86vw;
-    height:10vw;
-    margin:0;
+hr  {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
-#nav {
-    line-height:2vw;
-    background-color:black;
-    color:white;
-    font-family: Arial;
-    font-size:2vw;
-    position:fixed;
-    top:1vw;
-    left:1vw;
-    width:10vw;
-    height:96vh;
-    padding:1vw;
+.container-fluid  {
+    margin: 0px 0px 0px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-#section {
-    width:86vw;
-    font-family: Arial;
-    font-size:2vw;
-    position:absolute;
-    top:9vw;
-    left:13vw;
-    padding:1vw; 
+
+.nav  {
+    border: 1px solid darkblue;
+    border-radius: 7px;
 }
-h1.head {
-    font-size:4vw;
+
+ul.nav li a  {
+    color: darkblue;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 110%;
 }
-a:link    {
-    color:blue; 
-    background-color:transparent; 
-    text-decoration:none;
+
+ul.nav li.active a  {
+    background: darkblue;
+    color: white;
 }
-a:visited {
-    color:darkblue; 
-    background-color:transparent; 
-    text-decoration:none;
+
+ul.nav li.active a:hover  {
+    background: darkblue;
+    color: white;
 }
-a:hover   {
-    color:darkblue; 
-    background-color:transparent; 
-    text-decoration:none;
+
+ul.nav li a:hover  {
+    background: darkblue;
+    color: white;
 }
-a:active  {
-    color:darkblue; 
-    background-color:transparent; 
-    text-decoration:none;
-}
-a.navlink {
-    color:white;
-    background-color:transparent;
-    text-decoration:none;
-}
-a.navlink:hover {
-    color:grey;
-    background-color:transparent;
-    font-weight:bold;
-    text-decoration:none;
-}
-a.currentpage {
-    color:grey; 
-    background-color:transparent; 
-    text-decoration:none;
-}
-a.currentpage:hover {
-    color:grey; 
-    background-color:transparent; 
-    font-weight:bold;
-    text-decoration:none;
-}
-a.email {
-    color:white; 
-    background-color:transparent; 
-    text-decoration:none;
-}
-a.email:hover {
-    color:grey; 
-    background-color:transparent; 
-    text-decoration:none;
-}
+
