@@ -1,0 +1,167 @@
+\documentclass[letterpaper,10pt]{article} % Default font size and paper size
+
+\usepackage{times}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{hyperref} % Required for adding links and customizing them
+
+\usepackage[letterpaper,ignoreall,top=2cm,bottom=2cm,%
+left=2cm,right=2cm,foot=0cm,head=0cm]{geometry}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{\Huge \textbf{ Zackary Falls}}
+\noindent 
+\begin{tabular}{R{1.7cm}l}
+
+\textsc{Address:} & 806 Ashland Avenue, Buffalo, New York 14222 \\
+\textsc{Phone:} & +1 (315) 806-1955\\
+\textsc{email:} & \href{mailto:zfalls@me.com}{zfalls@me.com} \\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\noindent 
+\begin{tabular}{R{3cm}|p{13cm}} 
+
+\textsc{2012 -- Present} & Doctor of Philosophy (Ph.D.) in \textsc{Computational Chemistry} \\ 
+& \textbf{University at Buffalo, State University of New York}, Buffalo, New York \\
+& \hspace{3mm} \small Thesis: ``Elucidating Chemical Structures via DFT Investigations'' \\
+& \hspace{3mm} \small | Advisor: Prof. Eva \textsc{Zurek} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{2008 -- 2012} & Bachelor of Science in \textsc{}\textsc{Chemistry} -- ACS Accredited \\
+& \normalsize\textbf{Canisius College}, Buffalo, New York\\
+& \hspace{3mm} \small Cum Laude\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%   RESEARCH EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+\noindent 
+\begin{tabular}{R{3cm}|p{13cm}} 
+
+\emph{Current} & Graduate Researcher at \textbf{University at Buffalo, State University of New York} \\
+\textsc{2012 -- Present} & \hspace{3mm} \small | Advisor: Eva Zurek \\ 
+& \footnotesize{Primary research topic involves the molecular modeling of homogeneous and heterogeneous polyolefin polymerization catalyzed by single-site metallocene complexes. Metallocenes need to be activated by a co-catalyst such as methylaluminoxane (MAO) in order for polymerization to occur. The structure(s) of MAO have remained a mystery despite several experimental and theoretical studies. Computational methods are employed to explore the dynamic equilibria of various plausible MAO oligomers and structural entities for this elusive, yet significant, co-catalyst. We are continuing to study the interaction of MAO oligomers with MgCl$_{2}$ support. Our secondary project involves further development of, XtalOpt, an open source evolutionary algorithm for crystal structure prediction.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{2011 -- 2012} & Undergraduate Researcher at \textbf{Canisius College} \\
+& \hspace{3mm} \small | Advisor: Jeremy Steinbacher \\ 
+& \footnotesize{Research in the field of bio-organic material synthesis, specifically mesoporous silica nanoparticles. Qualitative and quantitative analyses were employed for these products using thermogravimetric analysis, thin-layer chromatography, nuclear magnetic resonance, and other methods. Synthesis of functionalized polyhedral oligomeric silsesquioxanes.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Summer 2011} & Undergraduate Researcher at \textbf{University at Buffalo, State University of New York} \\
+& \emph{Research Education for Undergraduates} \\
+& \hspace{3mm} \small | Advisor: Eva Zurek \\ 
+& \footnotesize{Ten week program to allow for the experience of graduate level research as an undergraduate. Research focused on testing a newly written random docking algorithm to screen a library of possible monomers used for molecularly imprinted polymers/xerogels.}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%   PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+\noindent
+
+\begin{itemize}
+
+    \item Falls, Z.; Tyminska, N.; Zurek, E. “The Dynamic Equilibrium Between (AlOMe)n Cages and (AlOMe)n·(AlMe3)m Nanotubes in Methylaluminoxane (MAO): A First-Principles Investigation”, Macromolecules. 2014, 47 (24), 8556–8569. doi: 10.1021/ma501892v
+
+    \item Wach, A.; Chen, J.; Falls, Z.; Lonie, D.; Mojica, E.; Aga, D.; Autschbach, J.; Zurek, E. “Determination of the Structures of Molecularly Imprinted Polymers and Xerogels Using an Automated Stochastic Approach”, Anal. Chem. 2013, 85 (18), 8577-8584. doi: 10.1021/ac402004z
+
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%   TEACHING EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Experience}
+\noindent 
+\begin{tabular}{R{3cm}|p{13cm}} 
+
+\textsc{Jul 2010-Oct 2011} & Summer Intern at \textsc{Intech Inc}, Chicago \emph{}\\
+& \footnotesize{Received pre-placed offer from the Exotics Trading Desk as a result of very positive review. Rated ``\emph{truly distinctive}'' for Analytical Skills and Teamwork.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%   SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Awards Received}
+\noindent 
+\begin{tabular}{R{3cm}|p{13cm}} 
+
+\textsc{Sept.} 2012 & Faculty of Science Masters Scholarship \footnotesize(\$30,000)\normalsize\\
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%   CONFERENCES ATTENDED
+%----------------------------------------------------------------------------------------
+
+\section{Conferences Attended}
+
+%----------------------------------------------------------------------------------------
+%   COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+\noindent 
+\begin{tabular}{R{3cm}|p{13cm}} 
+
+Basic Knowledge: & \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu\\
+
+Intermediate Knowledge: & \textsc{vba}, Excel, Word, PowerPoint\\
+
+\end{tabular}
+
+
+
+\end{document}
