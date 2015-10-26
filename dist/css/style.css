@@ -1,46 +1,58 @@
-.container-fluid  {
-    margin: 0px 0px 0px 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.lead  {
-    text-align: center;
-}
-
+/*** DIV ***/
 #div  {
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-.nav  {
-    border: 1px solid darkblue;
-    border-radius: 7px;
+div.container-fluid  {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
 }
 
-.box-light  {
+div.box-light  {
     margin: 0px 0px 0px 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 15px 0px 5px 0px;
     background-color: white;
     border-radius: 0px;
 }
 
-.box-dark  {
+div.box-dark  {
     margin: 0px 0px 0px 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 15px 0px 5px 0px;
     color: lightgrey;
     background-color: darkblue;
     border-radius: 0px;
 }
 
+
+
+/*** TEXT ***/
 h1  {
     font-variant: small-caps;
     text-align: center;
 }
 
+p.lead  {
+    text-align: center;
+}
+
+
+
+/*** NAVBAR ***/ 
+ul.nav  {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid darkblue;
+    border-radius: 7px;
+}
+
+ul.nav li  {
+    margin: 0px;
+    padding: 0px;
+}
+
 ul.nav li a  {
+    margin: 0px;
     color: darkblue;
     font-variant: small-caps;
     font-weight: bold;
@@ -48,17 +60,19 @@ ul.nav li a  {
 }
 
 ul.nav li.active a  {
+    margin: 0px;
     background: darkblue;
     color: white;
 }
 
 ul.nav li.active a:hover  {
+    margin: 0px;
     background: darkblue;
     color: white;
 }
 
 ul.nav li a:hover  {
+    margin: 0px;
     background: darkblue;
     color: white;
 }
-
