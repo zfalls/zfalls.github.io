@@ -1,6 +1,3 @@
-rm: *bbl: No such file or directory
-rm: *aux: No such file or directory
-rm: *blg: No such file or directory
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
@@ -29,24 +26,38 @@ Package hyperref Message: Driver (default): hdvips.
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
 (/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty)))
 (/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty)
+No file cv.aux.
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
+(./cv.out) (./cv.out)
 
-! LaTeX Error: File `titlesec.sty' not found.
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.15 \titleformat
-                 {\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]...
-
-No pages of output.
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
+Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
+\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
+In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
+[1] [2] (./cv.aux) )
+(see the transcript file for additional information)
+Output written on cv.dvi (2 pages, 13920 bytes).
 Transcript written on cv.log.
 /Users/Zeek/bin/runlatex: line 8: makeglossaries: command not found
-I couldn't open file name `cv.aux'
-I couldn't open file name `cv.aux'
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+The top-level auxiliary file: cv.aux
+I found no \citation commands---while reading file cv.aux
+I found no \bibdata command---while reading file cv.aux
+I found no \bibstyle command---while reading file cv.aux
+(There were 3 error messages)
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+The top-level auxiliary file: cv.aux
+I found no \citation commands---while reading file cv.aux
+I found no \bibdata command---while reading file cv.aux
+I found no \bibstyle command---while reading file cv.aux
+(There were 3 error messages)
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
@@ -75,20 +86,20 @@ Package hyperref Message: Driver (default): hdvips.
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
 (/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty)))
 (/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
-
-! LaTeX Error: File `titlesec.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.15 \titleformat
-                 {\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]...
-
-No pages of output.
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./cv.aux)
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
+(./cv.out) (./cv.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
+Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
+\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
+In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
+[1] [2] (./cv.aux) )
+(see the transcript file for additional information)
+Output written on cv.dvi (2 pages, 13920 bytes).
 Transcript written on cv.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=latex)
  restricted \write18 enabled.
@@ -118,20 +129,20 @@ Package hyperref Message: Driver (default): hdvips.
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
 (/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty)))
 (/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
-
-! LaTeX Error: File `titlesec.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.15 \titleformat
-                 {\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]...
-
-No pages of output.
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./cv.aux)
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
+(./cv.out) (./cv.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
+Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
+\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
+In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
+[1] [2] (./cv.aux) )
+(see the transcript file for additional information)
+Output written on cv.dvi (2 pages, 13920 bytes).
 Transcript written on cv.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -160,23 +171,42 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 (/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty))
 (/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
-
-! LaTeX Error: File `titlesec.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.15 \titleformat
-                 {\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]...
-
-!  ==> Fatal error occurred, no output PDF file produced!
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./cv.aux)
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
+(./cv.out) (./cv.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
+Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
+\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
+In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
+[1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./cv.aux) 
+)
+(see the transcript file for additional information){/opt/local/share/texmf-tex
+live/fonts/enc/dvips/base/8r.enc}</opt/local/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></opt/local/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></opt/local/
+share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-te
+xlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on cv.pdf (2 pages, 90599 bytes).
 Transcript written on cv.log.
 /Users/Zeek/bin/runlatex: line 15: makeglossaries: command not found
-I couldn't open file name `cv.aux'
-I couldn't open file name `cv.aux'
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+The top-level auxiliary file: cv.aux
+I found no \citation commands---while reading file cv.aux
+I found no \bibdata command---while reading file cv.aux
+I found no \bibstyle command---while reading file cv.aux
+(There were 3 error messages)
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+The top-level auxiliary file: cv.aux
+I found no \citation commands---while reading file cv.aux
+I found no \bibdata command---while reading file cv.aux
+I found no \bibstyle command---while reading file cv.aux
+(There were 3 error messages)
 /Users/Zeek/bin/runlatex: line 18: pdfltex: command not found
 /Users/Zeek/bin/runlatex: line 19: pdfLtex: command not found
