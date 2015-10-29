@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=latex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
 (./cv.tex
@@ -46,19 +46,19 @@ In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
 Output written on cv.dvi (2 pages, 13920 bytes).
 Transcript written on cv.log.
 /Users/Zeek/bin/runlatex: line 8: makeglossaries: command not found
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
 The top-level auxiliary file: cv.aux
 I found no \citation commands---while reading file cv.aux
 I found no \bibdata command---while reading file cv.aux
 I found no \bibstyle command---while reading file cv.aux
 (There were 3 error messages)
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
 The top-level auxiliary file: cv.aux
 I found no \citation commands---while reading file cv.aux
 I found no \bibdata command---while reading file cv.aux
 I found no \bibstyle command---while reading file cv.aux
 (There were 3 error messages)
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=latex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
 (./cv.tex
@@ -101,7 +101,7 @@ In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
 (see the transcript file for additional information)
 Output written on cv.dvi (2 pages, 13920 bytes).
 Transcript written on cv.log.
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=latex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
 (./cv.tex
@@ -144,7 +144,7 @@ In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
 (see the transcript file for additional information)
 Output written on cv.dvi (2 pages, 13920 bytes).
 Transcript written on cv.log.
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_2) (preloaded format=pdflatex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./cv.tex
@@ -196,13 +196,13 @@ xlive/fonts/type1/urw/times/utmri8a.pfb>
 Output written on cv.pdf (2 pages, 90599 bytes).
 Transcript written on cv.log.
 /Users/Zeek/bin/runlatex: line 15: makeglossaries: command not found
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
 The top-level auxiliary file: cv.aux
 I found no \citation commands---while reading file cv.aux
 I found no \bibdata command---while reading file cv.aux
 I found no \bibstyle command---while reading file cv.aux
 (There were 3 error messages)
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_2)
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
 The top-level auxiliary file: cv.aux
 I found no \citation commands---while reading file cv.aux
 I found no \bibdata command---while reading file cv.aux
