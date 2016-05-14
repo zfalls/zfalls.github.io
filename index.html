@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1 minimum-scale=1">
   <meta name="description" content="Zackary Falls - Personal and Professional Page">
   <meta name="author" content="Zackary Falls">
-  <title>Zackary Falls - Personal and Professional Page</title>
+  <title>Zackary Falls - Home</title>
 
   <!-- Styles -->
   <link href="dist/css/bootstrap.css" rel="stylesheet">
@@ -19,6 +19,11 @@
   <!-- Scripts -->
   <script src="dist/js/jquery.js"></script>
   <script type="text/javascript" src='dist/js/bootstrap.min.js'></script>
+  <script> 
+    $(function(){
+      $("#nav").load("nav.html"); 
+    });
+  </script> 
 </head>
 
 <body>
@@ -28,28 +33,36 @@
   
     <h1 style="font-variant:small-caps; text-align:center;">Home</h1> 
 
+
+
     <!--NavBar-->
-    <div class="navbar">
-      <ul class="nav nav-pills nav-justified">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="pub.html">Publications</a></li>
-      </ul>
-    </div>
+    <div id="nav"></div>
+
+
 
     <div class="box-light">
       <p class="lead">
         Welcome to the personal and professional page of Zackary Falls.
       </p>
     </div>
+    
+    <br>
 
     <div class="box-dark">
       <p class="lead">
-        Check out the XtalOpt website... 
+      Check out the <a target=_blank href=http://xtalopt.github.io>XtalOpt website</a>... 
       </p>
     </div>
 
-  </div>
+    <br>
+
+    <div class="box-light">
+      <p class="lead">
+      Visit my <a target=_blank href=Http://github.com/zfalls>GitHub repository</a>...
+      </p>
+    </div>
+
+ </div>
 
 </body>
 </html>
