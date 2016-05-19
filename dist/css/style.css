@@ -44,6 +44,7 @@ ul.nav  {
     padding: 0px;
     border: 1px solid darkblue;
     border-radius: 7px;
+    background: white;
 }
 
 ul.nav li  {
