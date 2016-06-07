@@ -1,6 +1,6 @@
 /*** BODY ***/
 body {
-  padding-top: 40px;
+    padding-top: 40px;
 }
 
 
@@ -39,10 +39,17 @@ div.box-dark  {
 
 /*** TEXT ***/
 h1  {
+    font-size: 32px;
     font-variant: small-caps;
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    h1  {
+        font-size: 30px;
+    }
+}
+ 
 p.lead  {
     text-align: center;
 }
