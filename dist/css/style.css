@@ -1,11 +1,6 @@
 /*** BODY ***/
 body {
-  padding-top: 120px;
-}
-@media (min-width: 768px) {
-  body {
-    padding-top: 40px;
-  } 
+  padding-top: 40px;
 }
 
 
@@ -57,8 +52,9 @@ hr  {
 }
 
 
-/*** NAVBAR ***/ 
+/*** NAVBAR ***/
 ul.nav  {
+    width: 100%;
     margin: 0px;
     padding: 0px;
     border: 1px solid darkblue;
@@ -67,6 +63,7 @@ ul.nav  {
 }
 
 ul.nav li  {
+    text-align: center;
     margin: 0px;
     padding: 0px;
 }
