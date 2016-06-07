@@ -6,6 +6,27 @@ div.latex  {
     font-size: 16px;
 }
 
+div.latex col.small   { 
+    width: 70px;
+    text-align: left;
+}
+
+div.latex col.large {
+    width: 130px; 
+    padding: 0px; 
+    border-right: solid 1px darkslategrey;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    div.latex col.small  {
+        width: 50px;
+    }
+    div.latex col.large {
+        width: 110px; 
+    }
+}
+
 div.latex h1  {
     font-size: 24px;
     font-weight: bold;
