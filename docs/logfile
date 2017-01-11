@@ -1,212 +1,350 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=latex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
-(./cv.tex
+(./resume.tex
 LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 44 languages loaded.
-(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo))
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/times.sty)
-(/opt/local/share/texmf-texlive/tex/latex/tools/array.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-generic.sty))
-(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty)
-(/opt/local/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/auxhook.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/pd1enc.def)
-(/opt/local/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg)
-(/opt/local/share/texmf-texlive/tex/latex/url/url.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
 
 Package hyperref Message: Driver (default): hdvips.
 
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hdvips.def
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty)))
-(/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hdvips.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pdfmark.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty)
 (/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty)
-No file cv.aux.
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
-(./cv.out) (./cv.out)
+No file resume.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./resume.out) (./resume.out)
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
-Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
-\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
-In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
-[1] [2] (./cv.aux) )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd)
+Underfull \hbox (badness 2189) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/9 Building and main-tain-ing of web-site for \OT1/ptm/m/sc/9 Xta
+lOpt\OT1/ptm/m/n/9 , im-ple-ment-ing \OT1/ptm/m/sc/9 html, css, and
+[1]
+Overfull \hbox (0.63876pt too wide) in paragraph at lines 162--163
+\OT1/ptm/m/n/9 Methy-la-lu-mi-nox-ane (MAO): A First-Principles In-ves-ti-ga-ti
+on", Macro-molecules. 2014, 47 (24), 8556-8569. doi: 10.1021/ma501892v 
+[2] (./resume.aux) )
 (see the transcript file for additional information)
-Output written on cv.dvi (2 pages, 13920 bytes).
-Transcript written on cv.log.
-/Users/Zeek/bin/runlatex: line 8: makeglossaries: command not found
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
-The top-level auxiliary file: cv.aux
-I found no \citation commands---while reading file cv.aux
-I found no \bibdata command---while reading file cv.aux
-I found no \bibstyle command---while reading file cv.aux
+Output written on resume.dvi (2 pages, 13536 bytes).
+Transcript written on resume.log.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@input{ <-- HERE (.+)\.aux}/ at /Library/TeX/texbin/makeglossaries line 634.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@newglossary\s*\{(.*)\}{ <-- HERE (.*)}{(.*)}{(.*)}/ at /Library/TeX/texbin/makeglossaries line 643.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@newglossary\s*\{(.*)\}{(.*)}{ <-- HERE (.*)}{(.*)}/ at /Library/TeX/texbin/makeglossaries line 643.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@newglossary\s*\{(.*)\}{(.*)}{(.*)}{ <-- HERE (.*)}/ at /Library/TeX/texbin/makeglossaries line 643.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@xdylanguage\s*{([^}]+)}{ <-- HERE ([^}]*)}/ at /Library/TeX/texbin/makeglossaries line 674.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@gls\@codepage\s*{([^}]+)}{ <-- HERE ([^}]*)}/ at /Library/TeX/texbin/makeglossaries line 680.
+No \@istfilename found in 'resume.aux'.
+Did your LaTeX run fail?
+Did your LaTeX run produce any output?
+Did you remember to use \makeglossaries?
+makeglossaries version 2.15 (2014-07-30)
+This is BibTeX, Version 0.99d (TeX Live 2015)
+The top-level auxiliary file: resume.aux
+I found no \citation commands---while reading file resume.aux
+I found no \bibdata command---while reading file resume.aux
+I found no \bibstyle command---while reading file resume.aux
 (There were 3 error messages)
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
-The top-level auxiliary file: cv.aux
-I found no \citation commands---while reading file cv.aux
-I found no \bibdata command---while reading file cv.aux
-I found no \bibstyle command---while reading file cv.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+The top-level auxiliary file: resume.aux
+I found no \citation commands---while reading file resume.aux
+I found no \bibdata command---while reading file resume.aux
+I found no \bibstyle command---while reading file resume.aux
 (There were 3 error messages)
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=latex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
-(./cv.tex
+(./resume.tex
 LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 44 languages loaded.
-(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo))
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/times.sty)
-(/opt/local/share/texmf-texlive/tex/latex/tools/array.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-generic.sty))
-(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty)
-(/opt/local/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/auxhook.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/pd1enc.def)
-(/opt/local/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg)
-(/opt/local/share/texmf-texlive/tex/latex/url/url.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
 
 Package hyperref Message: Driver (default): hdvips.
 
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hdvips.def
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty)))
-(/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
-(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./cv.aux)
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
-(./cv.out) (./cv.out)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hdvips.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pdfmark.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty)
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./resume.aux)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./resume.out) (./resume.out)
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
-Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
-\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
-In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
-[1] [2] (./cv.aux) )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd)
+Underfull \hbox (badness 2189) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/9 Building and main-tain-ing of web-site for \OT1/ptm/m/sc/9 Xta
+lOpt\OT1/ptm/m/n/9 , im-ple-ment-ing \OT1/ptm/m/sc/9 html, css, and
+[1]
+Overfull \hbox (0.63876pt too wide) in paragraph at lines 162--163
+\OT1/ptm/m/n/9 Methy-la-lu-mi-nox-ane (MAO): A First-Principles In-ves-ti-ga-ti
+on", Macro-molecules. 2014, 47 (24), 8556-8569. doi: 10.1021/ma501892v 
+[2] (./resume.aux) )
 (see the transcript file for additional information)
-Output written on cv.dvi (2 pages, 13920 bytes).
-Transcript written on cv.log.
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=latex)
+Output written on resume.dvi (2 pages, 13536 bytes).
+Transcript written on resume.log.
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex)
  restricted \write18 enabled.
 entering extended mode
-(./cv.tex
+(./resume.tex
 LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 44 languages loaded.
-(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo))
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/times.sty)
-(/opt/local/share/texmf-texlive/tex/latex/tools/array.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-generic.sty))
-(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty)
-(/opt/local/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/auxhook.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/pd1enc.def)
-(/opt/local/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg)
-(/opt/local/share/texmf-texlive/tex/latex/url/url.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
 
 Package hyperref Message: Driver (default): hdvips.
 
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hdvips.def
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty)))
-(/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
-(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./cv.aux)
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
-(./cv.out) (./cv.out)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hdvips.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pdfmark.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty)
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./resume.aux)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./resume.out) (./resume.out)
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
-Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
-\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
-In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
-[1] [2] (./cv.aux) )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd)
+Underfull \hbox (badness 2189) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/9 Building and main-tain-ing of web-site for \OT1/ptm/m/sc/9 Xta
+lOpt\OT1/ptm/m/n/9 , im-ple-ment-ing \OT1/ptm/m/sc/9 html, css, and
+[1]
+Overfull \hbox (0.63876pt too wide) in paragraph at lines 162--163
+\OT1/ptm/m/n/9 Methy-la-lu-mi-nox-ane (MAO): A First-Principles In-ves-ti-ga-ti
+on", Macro-molecules. 2014, 47 (24), 8556-8569. doi: 10.1021/ma501892v 
+[2] (./resume.aux) )
 (see the transcript file for additional information)
-Output written on cv.dvi (2 pages, 13920 bytes).
-Transcript written on cv.log.
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_5) (preloaded format=pdflatex)
+Output written on resume.dvi (2 pages, 13536 bytes).
+Transcript written on resume.log.
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(./cv.tex
+(./resume.tex
 LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 44 languages loaded.
-(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo))
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/times.sty)
-(/opt/local/share/texmf-texlive/tex/latex/tools/array.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-hyperref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-generic.sty))
-(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty)
-(/opt/local/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/auxhook.sty)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/pd1enc.def)
-(/opt/local/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg)
-(/opt/local/share/texmf-texlive/tex/latex/url/url.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty))
-(/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty)
-(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./cv.aux)
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd)
-(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty))
-(./cv.out) (./cv.out)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty)
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./resume.aux)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./resume.out) (./resume.out)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/omsptm.fd)
-Overfull \hbox (0.80144pt too wide) in paragraph at lines 108--109
-\OT1/ptm/m/n/10 Nan-otubes in Methy-la-lu-mi-nox-ane (MAO): A First-Principles 
-In-ves-ti-ga-tion", Macro-molecules. 2014, 47 (24), 85568569.
-[1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./cv.aux) 
-)
-(see the transcript file for additional information){/opt/local/share/texmf-tex
-live/fonts/enc/dvips/base/8r.enc}</opt/local/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmmi6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></opt/local/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></opt/local/
-share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-te
-xlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cv.pdf (2 pages, 90599 bytes).
-Transcript written on cv.log.
-/Users/Zeek/bin/runlatex: line 15: makeglossaries: command not found
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
-The top-level auxiliary file: cv.aux
-I found no \citation commands---while reading file cv.aux
-I found no \bibdata command---while reading file cv.aux
-I found no \bibstyle command---while reading file cv.aux
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd)
+Underfull \hbox (badness 2189) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/9 Building and main-tain-ing of web-site for \OT1/ptm/m/sc/9 Xta
+lOpt\OT1/ptm/m/n/9 , im-ple-ment-ing \OT1/ptm/m/sc/9 html, css, and
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (0.63876pt too wide) in paragraph at lines 162--163
+\OT1/ptm/m/n/9 Methy-la-lu-mi-nox-ane (MAO): A First-Principles In-ves-ti-ga-ti
+on", Macro-molecules. 2014, 47 (24), 8556-8569. doi: 10.1021/ma501892v 
+[2] (./resume.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2015/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on resume.pdf (2 pages, 77081 bytes).
+Transcript written on resume.log.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@input{ <-- HERE (.+)\.aux}/ at /Library/TeX/texbin/makeglossaries line 634.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@newglossary\s*\{(.*)\}{ <-- HERE (.*)}{(.*)}{(.*)}/ at /Library/TeX/texbin/makeglossaries line 643.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@newglossary\s*\{(.*)\}{(.*)}{ <-- HERE (.*)}{(.*)}/ at /Library/TeX/texbin/makeglossaries line 643.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@newglossary\s*\{(.*)\}{(.*)}{(.*)}{ <-- HERE (.*)}/ at /Library/TeX/texbin/makeglossaries line 643.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@xdylanguage\s*{([^}]+)}{ <-- HERE ([^}]*)}/ at /Library/TeX/texbin/makeglossaries line 674.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\\\@gls\@codepage\s*{([^}]+)}{ <-- HERE ([^}]*)}/ at /Library/TeX/texbin/makeglossaries line 680.
+No \@istfilename found in 'resume.aux'.
+Did your LaTeX run fail?
+Did your LaTeX run produce any output?
+Did you remember to use \makeglossaries?
+makeglossaries version 2.15 (2014-07-30)
+This is BibTeX, Version 0.99d (TeX Live 2015)
+The top-level auxiliary file: resume.aux
+I found no \citation commands---while reading file resume.aux
+I found no \bibdata command---while reading file resume.aux
+I found no \bibstyle command---while reading file resume.aux
 (There were 3 error messages)
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_5)
-The top-level auxiliary file: cv.aux
-I found no \citation commands---while reading file cv.aux
-I found no \bibdata command---while reading file cv.aux
-I found no \bibstyle command---while reading file cv.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+The top-level auxiliary file: resume.aux
+I found no \citation commands---while reading file resume.aux
+I found no \bibdata command---while reading file resume.aux
+I found no \bibstyle command---while reading file resume.aux
 (There were 3 error messages)
-/Users/Zeek/bin/runlatex: line 18: pdfltex: command not found
-/Users/Zeek/bin/runlatex: line 19: pdfLtex: command not found
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./resume.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty)
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./resume.aux)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./resume.out) (./resume.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd)
+Underfull \hbox (badness 2189) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/9 Building and main-tain-ing of web-site for \OT1/ptm/m/sc/9 Xta
+lOpt\OT1/ptm/m/n/9 , im-ple-ment-ing \OT1/ptm/m/sc/9 html, css, and
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (0.63876pt too wide) in paragraph at lines 162--163
+\OT1/ptm/m/n/9 Methy-la-lu-mi-nox-ane (MAO): A First-Principles In-ves-ti-ga-ti
+on", Macro-molecules. 2014, 47 (24), 8556-8569. doi: 10.1021/ma501892v 
+[2] (./resume.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2015/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on resume.pdf (2 pages, 77081 bytes).
+Transcript written on resume.log.
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./resume.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty)
+(/Users/Zeek/Library/texmf/tex/latex/titlesec/titlesec.sty) (./resume.aux)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./resume.out) (./resume.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd)
+Underfull \hbox (badness 2189) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/9 Building and main-tain-ing of web-site for \OT1/ptm/m/sc/9 Xta
+lOpt\OT1/ptm/m/n/9 , im-ple-ment-ing \OT1/ptm/m/sc/9 html, css, and
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (0.63876pt too wide) in paragraph at lines 162--163
+\OT1/ptm/m/n/9 Methy-la-lu-mi-nox-ane (MAO): A First-Principles In-ves-ti-ga-ti
+on", Macro-molecules. 2014, 47 (24), 8556-8569. doi: 10.1021/ma501892v 
+[2] (./resume.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2015/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on resume.pdf (2 pages, 77081 bytes).
+Transcript written on resume.log.
