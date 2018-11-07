@@ -3,8 +3,6 @@ body {
     padding-top: 40px;
 }
 
-
-
 /*** DIV ***/
 #div  {
     padding-top: 0px;
@@ -22,20 +20,28 @@ div.row {
 
 div.box-light  {
     margin: 0px 0px 0px 0px;
-    padding: 15px 0px 5px 0px;
+    padding: 18px 12px 1px 12px;
     background-color: white;
     border-radius: 0px;
 }
 
 div.box-dark  {
     margin: 0px 0px 0px 0px;
-    padding: 15px 0px 5px 0px;
+    padding: 18px 12px 1px 12px;
     color: lightgrey;
     background-color: darkblue;
     border-radius: 0px;
 }
 
 
+/*** TABLES ***/
+td  {
+    padding-left:   12px;
+}
+
+tr.blank_row   {
+    height: 12px
+}
 
 /*** TEXT ***/
 h1  {
@@ -52,12 +58,21 @@ h1  {
  
 p.lead  {
     text-align: center;
+    padding:0px 24px;
 }
 
 hr  {
     width: 95%;
 }
 
+a:hover {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:visited   {
+    color: darkblue;
+}
 
 /*** NAVBAR ***/
 ul.nav  {
