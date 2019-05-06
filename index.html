@@ -1,38 +1,34 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112270583-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-112270583-1');
-  </script>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Zackary Falls</title>
+	<meta name="description" content="Drug design, discovery, and repurposing via CANDO (Computational Analysis of Novel Drug Opportunities).">
+	<meta name="author" content="Zackary Falls">
 
-  <!-- Metadata -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta http-equiv="cleartype" content="on">
-  <meta name="viewport" content="width=device-width initial-scale=1">
-  <meta name="description" content="Zackary Falls - Personal and Professional Page">
-  <meta name="author" content="Zackary Falls">
-  <title>Zackary Falls - Home</title>
-  <!-- Styles -->
-  <link href="dist/css/bootstrap.css" rel="stylesheet">
-  <link href="dist/css/bootstrap-theme.css" rel="stylesheet">
-  <link href="dist/css/style.css" rel="stylesheet">
-  <!-- Scripts -->
-  <script src="dist/js/jquery.js"></script>
-  <script type="text/javascript" src='dist/js/bootstrap.min.js'></script>
-  <script>
-    $(function(){
-      $("#nav").load("nav.html");
-    });
-  </script>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="dist/css/default.css">
+   <link rel="stylesheet" href="dist/css/layout.css">
+   <link rel="stylesheet" href="dist/css/media-queries.css">
+   <link rel="stylesheet" href="dist/css/magnific-popup.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+   <!-- Script
+   ================================================== -->
+	<script src="dist/js/modernizr.js"></script>
+
   <!-- Fav and touch icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="dist/img/zf-logo.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="dist/img/zf-logo.png">
@@ -40,56 +36,485 @@
   <link rel="apple-touch-icon-precomposed" href="dist/img/zf-logo.png">
   <link rel="shortcut icon" href="dist/img/zf-logo.png">
   <link rel="icon" href="dist/img/zf-logo.png">
+
 </head>
 
 <body>
-  <!--Content-->
-  <div class="container-fluid">
-    <!--NavBar-->
-    <div id="nav"></div>
-    <!--Heading-->
-    <h1 style="font-variant:small-caps;">Zackary Falls</h1>
-    <!--Body-->
-    <div class="box-dark">
-      <p class="lead">
-      Postdoctoral Fellow in the Samudrala Group at the University at Buffalo.
-      </p>
-    </div>
-	<div class="box-light" style="vertical_align:middle;">
-      <p class="lead" style="text-align:center;">
-        <a target=_blank href=http://github.com/zfalls>
-          <img src=dist/img/github-logo.png alt="Visit Zackary's GitHub Repository" width="12%" style="max-width:60px" hspace="12">
-		</a>
-        <a href="https://www.linkedin.com/in/zfalls3">
-          <img src="dist/img/linkedin-logo.png" alt="Visit Zackary's Linkedin Profile" width="12%" style="max-width:60px" hspace="12">
-        </a>
-          <a target=_blank href=http://protinfo.compbio.buffalo.edu/cando>
-          <img src=dist/img/cando_logo-blue.png alt="Visit the CANDO Website" width="12%" style="max-width:60px" hspace="12">
-        </a>
-        <a target=_blank href=http://xtalopt.github.io>
-          <img src=dist/img/xtalopt-logo.png alt="Visit the XtalOpt Website" width="12%" style="max-width:60px" hspace="12">
-        </a>
-      </p>
-    <hr>
-        <p class="lead" style="text-align:center;">
-          Currently working with
-          <a target=_blank href=http://www.ram.org>Ram Samudrala</a>
-          and his
-          <a target=_blank href=http://compbio.buffalo.edu>group</a>
-          on the
-          <a target=_blank href=http://protinfo.compbio.buffalo.edu/cando>CANDO</a>
-          (Computational Analysis of Novel Drug Opportunities) Platform to
-          perform multitarget, shotgun  
-          <a target=_blank href=https://en.wikipedia.org/wiki/Drug_repositioning>drug repurposing</a>.
-        </p>
-    	<hr>
-    </div>
-    <div class="box-light">
-    	<hr style="border-color:darkblue;">
-	  	<img src="dist/img/zf-logo.svg" style="margin-bottom:12px;" height="25px">
-      	<img align="right" src="dist/img/ub_2line_logo.png" style="margin-bottom:12px;" height="25px">
-	</div>
 
-  </div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Zackary Falls.</h1>
+			<h3><span>Bioinformatics</span> and <span>computational chemistry</span> towards the <span>discovery</span>, <span>design</span>, and <span>repurposing</span> of drugs.
+            <hr />
+            <ul class="social">
+               <li><a href="https://scholar.google.com/citations?user=7NBOJksAAAAJ&hl=en" target="_blank"><i class="fa fa-google"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/zfalls3" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.github.com/zfalls" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.gitlab.com/zfalls" target="_blank"><i class="fa fa-gitlab"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="dist/img/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+			<p>I am a <span>postdoctoral fellow</span> in the Samudrala group at the University at Buffalo. My current research interests include drug design, discovery, and repurposing.
+            </p>
+
+         </div> <!-- end .main-col -->
+
+	  </div> <!-- end row -->
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University at Buffalo</h3>
+                  <p class="info">Ph.D. in Computational Chemistry<span>&bull;</span> <em class="date">Feburary 2018</em></p>
+
+                  <p>
+				  Thesis: "Elucidating Chemical Structures via DFT Investigations"
+				  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Canisius College</h3>
+                  <p class="info">B.S. in Chemistry<span>&bull;</span> <em class="date">May 2012</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Research</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+				   <h3>University at Buffalo <br><span>Jacobs School of Medicine and Biomedical Science</span></h3>
+				  
+				  <p class='info'><em class='dept'> Department of Biomedical Informatics</em> </p>
+                  
+				  <p class="info">Postdoctoral Fellow<span>&bull;</span> <em class="date">October 2017 - Present</em></p>
+
+                  <p>
+				  <ul>
+					<li>Received a National Library of Medicine T15 informatics training fellowship award.</li>
+					<li>Developed a computational drug discovery platform (CANDO) leveraging bioinformatic and cheminformatic tools to predict novel drug–disease relationships.</li>
+					<li>Investigated small molecule binding poses/affinities to protein and RNA complexes using multiple molecular docking and dynamics protocols (e.g. CANDOCK, OpenMM, etc.).</li>
+					<li>Wrote various data analysis scripts in Python for exploring chemical, proteomic, transcriptomic, and genomic data.</li>
+					<li>Handled multiple individual and collaborative projects simultaneously.
+					<li>Managed group affairs, led meetings and discussions, and provided guidance for other members’ projects.
+					<li>Organized a peer-to-peer lecture series for the Biomedical Informatics department.
+				  </ul>
+				  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University at Buffalo</h3>
+
+
+				  <p class='info'><em class='dept'> Department of Chemistry</em> </p>
+                  
+				  <p class="info">Graduate Researcher<span>&bull;</span> <em class="date">May 2012 - September 2017</em></p>
+
+                  <p>
+				  <ul>
+					 <li>Developed <span style="font-variant:small-caps;">XtalOpt</span>, an open source evolutionary algorithm for crystal structure prediction written in C++.</li>
+                    <li>Computationally modeled homogeneous and heterogeneous polyolefin polymerization reactions catalyzed by single-site metallocene complexes.</li>
+                    <li>Created and updated a website that provided information for <span style="font-variant:small-caps;">XtalOpt</span>.</li>
+                    <li>Built and maintained a Linux-based server for lab machine backup and hosting of a wiki for lab-related information.</li>
+                </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+			<div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Canisius College</h3>
+                  <p class="info">Undergraduate Researcher<span>&bull;</span> <em class="date">August 2011 - May 2012</em></p>
+
+                  <p>
+                  <ul>
+                    <li>Synthesized bio-organic materials, specifically mesoporous silica nanoparticles.</li>
+                    <li>Trained in qualitative and quantitative analyses including: thermogravimetric analysis, thin-layer chromatography, nuclear magnetic resonance, and other methods.</li>
+                    <li>Employed techniques to synthesize functionalized polyhedral oligomeric silsesquioxanes.</li>
+                </ul>
+				  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+			<div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University at Buffalo</h3>
+
+                  <p class='info'><em class='dept'> Department of Chemistry</em> </p>
+
+                  <p class="info">Undergraduate Researcher<span>&bull;</span> <em class="date">May 2011 - August 2011</em></p>
+
+                  <p>
+                  <ul>
+					<li>Selected for Research Experience for Undergraduates through the National Science Foundation.
+                    <li>Tested a newly written random docking algorithm to screen a library of possible monomers used for molecularly imprinted polymers/xerogels.</li>
+               	  </ul>                  
+				  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="three columns main-col">
+			
+			<h3>Languages</h3>
+	
+			<h4>Python</h4>
+			<h4>C++</h4>
+			<h4>R</h4>
+			<h4>HTML5</h4>
+			<h4>CSS</h4>
+
+		</div> <!-- main-col end -->
+        
+		<div class="three columns main-col">
+			
+			<h3>Software</h3>
+
+			<h4>OpenMM</h4>
+			<h4>I-TASSER</h4>
+			<h4>PyMol</h4>
+			<h4>ADF</h4>
+			<h4>Gaussian</h4>
+		
+		</div> <!-- main-col end -->
+		
+		<div class="three columns main-col">
+			 
+			<h3>OS</h3>
+
+			<h4>Linux</h4>
+			<h4>Mac OS X</h4>
+			<h4>Windows</h4>
+		
+		</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+
+	  <!-- Publications -->
+      <div class="row publication">
+
+	  	<div class="three columns header-col">
+            <h1><span>Publications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+				 
+				   <ol reversed>
+
+        <li style="padding-bottom:10px">Falls, Z.; Mangione, W.; Schuler, J.; Samudrala, R. "Exploration of interaction scoring criteria in the CANDO platform" <span style="font-style:italic;">BioRXiv</span> <span style="font-weight:bold;">2019</span>, <span style="font-style:italic;">Preprint</span>. <a href="https://doi.org/10.1101/591578">DOI:10.1101/591578</a></li>
+        
+		<li style="padding-bottom:10px">Avery, P.; Falls, Z.; Zurek, E. "<span style="font-variant:small-caps;">XtalOpt</span> version r11: An open-source evolutionary algorithm for crystal structure prediction" <span style="font-style:italic;">Comput. Phys. Commun.</span> <span style="font-weight:bold;">2017</span>, <span style="font-style:italic;">In Press</span>. <a href="https://doi.org/10.1016/j.cpc.2017.09.011">DOI:10.1016/j.cpc.2017.09.011</a></li>
+
+    <li style="padding-bottom:10px">Avery, P.; Falls, Z.; Zurek, E. "<span style="font-variant:small-caps;">XtalOpt</span> version r10: An open-source evolutionary algorithm for crystal structure prediction" <span style="font-style:italic;">Comput. Phys. Commun.</span> <span style="font-weight:bold;">2017</span>, <span style="font-style:italic;">217</span>, 210-211. <a href="https://doi.org/10.1016/j.cpc.2017.04.001">DOI:10.1016/j.cpc.2017.04.001</a></li>
+
+    <li style="padding-bottom:10px">Falls, Z.; Zurek, E.; Autschbach, J. "Computational prediction and analysis of the <sup>27</sup>Al solid-state NMR spectrum of methylaluminoxane (MAO) at variable temperatures and field strengths" <span style="font-style:italic;">Phys. Chem. Chem. Phys.</span> <span style="font-weight:bold;">2016</span>, <span style="font-style:italic;">18</span> (34), 24106-24118. <a href="http://dx.doi.org/10.1039/C6CP04260K">DOI:10.1039/C6CP04260K</a></li>
+
+        <li style="padding-bottom:10px">Shamp, A.; Terpstra, T.; Bi, T.; Falls, Z.; Avery, P.; Zurek, E. "Decomposition Products of Phosphine Under Pressure: PH<sub>2</sub> Stable and Superconducting?" <span style="font-style:italic;">J. Am. Chem. Soc.</span> <span style="font-weight:bold;">2016</span>, <span style="font-style:italic;">138</span> (6), 1884-1892. <a href="http://dx.doi.org/10.1021/jacs.5b10180">DOI:10.1021/jacs.5b10180</a></li>
+
+		        <li style="padding-bottom:10px">Falls, Z.; Lonie, D. L.; Avery, P.; Shamp, A.; Zurek, E. "<span style="font-variant:small-caps;">XtalOpt</span> version r9: An open-source evolutionary algorithm for crystal structure prediction" <span style="font-style:italic;">Comput. Phys. Commun.</span> <span style="font-weight:bold;">2016</span>, <span style="font-style:italic;">199</span>, 178-179. <a href="http://dx.doi.org/10.1016/j.cpc.2015.09.018">DOI:10.1016/j.cpc.2015.09.018</a></li>
+
+        <li style="padding-bottom:10px">Falls, Z.; Tyminska, N.; Zurek, E. "The Dynamic Equilibrium Between (AlOMe)<sub>n</sub> Cages and (AlOMe)<sub>n</sub> &middot; (AlMe<sub>3</sub>)<sub>m</sub> Nanotubes in Methylaluminoxane (MAO): A First-Principles Investigation" <span style="font-style:italic;">Macromolecules</span>. <span style="font-weight:bold;">2014</span>, <span style="font-style:italic;">47</span> (24), 8556-8569. <a href="http://dx.doi.org/10.1021/ma501892v">DOI:10.1021/ma501892v</a></li>
+
+        <li style="padding-bottom:10px">Wach, A.; Chen, J.; Falls, Z.; Lonie, D.; Mojica, E.; Aga, D.; Autschbach, J.; Zurek, E. "Determination of the Structures of Molecularly Imprinted Polymers and Xerogels Using an Automated Stochastic Approach" <span style="font-style:italic;">Anal. Chem.</span> <span style="font-weight:bold;">2013</span>, <span style="font-style:italic;">85</span> (18), 8577-8584. <a href="http://dx.doi.org/10.1021/ac402004z">DOI:10.1021/ac402004z</a></li>
+			
+				
+				   </ol>
+			   </div>
+			</div> <!-- row end -->
+		</div> <!-- main-col end -->
+
+	  </div> <!-- End publications -->
+
+   </section> <!-- Resume Section End -->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Projects.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+               <div class="columns portfolio-item">
+			   </div>
+			   
+			   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="dist/img/xtalopt-logo.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+							   <h5><span style="font-variant:small-caps;">XtalOpt</span></h5>
+                              <p>Developer</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="dist/img/cando_logo-blue.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>CANDO</h5>
+                              <p>Developer</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+			
+			</div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      ----------------------------------------------------------------->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="dist/img/xtalopt.png" alt="" />
+
+		      <div class="description-box">
+				  <h4><span style="font-variant:small-caps;">XtalOpt</span></h4>
+			      <p>XtalOpt is a free and truly open source evolutionary algorithm designed for a priori crystal structure prediction.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Crystal Structure Prediction, Evolutionary Algorithm, Materials Science, C++</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://xtalopt.github.io" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="dist/img/cando_logo-blue.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Computational Analysis of Novel Drug Opportunities</h4>
+			      <p>CANDO is a unique computational drug discovery, design, and repurposing platform based on a shotgun, multitargeting approach to discover therapeutics with higher efficiency, lowered cost, and increased success rates, compared to current approaches.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Bioinformatics, Computational biology, Drug repurposing, Drug discovery, Python</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://compbio.buffalo.edu/protinfo/cando/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+					   <h4>Contact Me</h4>
+					   <p class="address">
+					       Zackary Falls, PhD<br>
+                           Department of Biomedical Informatics<br>
+                           Jacobs School of Medicine and Biomedical Sciences<br>
+                           University at Buffalo<br>
+                           77 Goodell St., Suite 540<br>
+						   Buffalo, NY 14203<br>
+                           <span>zmfalls_at_buffalo.edu</span>
+						   <br>
+						   <br>
+						   <br>
+					   </p>
+
+		    </div>
+
+		 </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://scholar.google.com/citations?user=7NBOJksAAAAJ&hl=en" target="_blank"><i class="fa fa-google"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/zfalls3" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/zfalls" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://gitlab.com/zfalls" target="_blank"><i class="fa fa-gitlab"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="dist/js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="dist/js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="dist/js/jquery.flexslider.js"></script>
+   <script src="dist/js/waypoints.js"></script>
+   <script src="dist/js/jquery.fittext.js"></script>
+   <script src="dist/js/magnific-popup.js"></script>
+   <script src="dist/js/init.js"></script>
+
 </body>
+
 </html>
