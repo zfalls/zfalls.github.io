@@ -21,11 +21,6 @@ Our aim is to explore and understand [quantum materials](http://condensedconcept
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
@@ -34,7 +29,7 @@ Our aim is to explore and understand [quantum materials](http://condensedconcept
             <img src="{{ site.url }}{{ site.baseurl }}/images/home_img/cando+covid_background.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home_img/cando_logo.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home_img/cando_logo.png" alt="Slide 2" width="200"/>
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
