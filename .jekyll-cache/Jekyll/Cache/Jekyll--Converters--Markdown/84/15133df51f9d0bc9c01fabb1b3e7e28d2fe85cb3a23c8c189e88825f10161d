@@ -1,0 +1,58 @@
+I"�<h1 id="publications">Publications</h1>
+
+<h2 id="group-highlights">Group highlights</h2>
+
+<p><strong>At the end of this page, you can find the <a href="#full-list-of-publications">full list of publications and patents</a>.</strong></p>
+
+<!--
+All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
+-->
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Multiscale Analysis and Validation of Effective Drug Combinations Targeting Driver KRAS Mutations in Non-Small Cell Lung Cancer</pubtit>
+      <p><img src="/images/pub_img/ijms-24-00997-g001.jpeg" class="img-responsive" width="50%" style="float: center" /></p>
+      <p><em>Bruggemann L, Falls Z, Mangione W, Schwartz S, Battaglia S, Aalinkeel R, Mahajan S, Samudrala R</em></p>
+      <p><strong><a href="https://doi.org/10.3390/ijms24020997">Int J Mol Sci. 2023 Jan 5;24(2)</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Optimal COVID-19 therapeutic candidate discovery using the CANDO platform</pubtit>
+      <p><img src="/images/pub_img/fphar-13-970494-g004.jpeg" class="img-responsive" width="50%" style="float: center" /></p>
+      <p><em>Mangione W, Falls Z, Samudrala R</em></p>
+      <p><strong><a href="https://doi.org/10.3389/fphar.2022.970494">Front Pharmacol. 2022;13:970494</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<p>   </p>
+
+<h2 id="patents">Patents</h2>
+<!--
+<em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
+-->
+
+<h2 id="full-list-of-publications">Full List of publications</h2>
+
+<p>Antiviral Approaches against Influenza Virus <br />
+  <em>Kumari R, Sharma SD, Kumar A, Ende Z, Mishina M, Wang Y, Falls Z, Samudrala R, Pohl J, Knight PR, Sambhara S </em><br /><a href="https://doi.org/10.1128/cmr.00040-22">Clin Microbiol Rev. 2023 Jan 16;:e0004022</a></p>
+
+<p>Multiscale Analysis and Validation of Effective Drug Combinations Targeting Driver KRAS Mutations in Non-Small Cell Lung Cancer <br />
+  <em>Bruggemann L, Falls Z, Mangione W, Schwartz S, Battaglia S, Aalinkeel R, Mahajan S, Samudrala R </em><br /><a href="https://doi.org/10.3390/ijms24020997">Int J Mol Sci. 2023 Jan 5;24(2)</a></p>
+
+<p>Trends in Prescribing Opioids, Benzodiazepines, and Both Among Adults with Alcohol Use Disorder in New York State <br />
+  <em>Jacobs DM, Tober R, Yu C, Gibson W, Dunn T, Lu CH, Bednzarczyk E, Jette G, Lape-Newman B, Falls Z, Elkin PL, Leonard KE </em><br /><a href="https://doi.org/10.1007/s11606-022-07682-3">J Gen Intern Med. 2023 Jan;38(1):138-146</a></p>
+
+<p>Optimal COVID-19 therapeutic candidate discovery using the CANDO platform <br />
+  <em>Mangione W, Falls Z, Samudrala R </em><br /><a href="https://doi.org/10.3389/fphar.2022.970494">Front Pharmacol. 2022;13:970494</a></p>
+
+:ET
