@@ -30,7 +30,7 @@ All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=au
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pub_img/{{ publi.image }}" class="img-responsive" width="50%" style="float: center" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pub_img/{{ publi.image }}" class="img-responsive" width="75%"/>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
