@@ -8,14 +8,19 @@
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
+  //background-color: #e4e4e4;
   background-color: $well-bg;
+  //border: 1px solid #005bbb;
   border: 1px solid $well-border;
   border-radius: $border-radius-base;
   @include box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
   blockquote {
-    border-color: #ddd;
     border-color: rgba(0,0,0,.15);
   }
+  hr {
+    border-top: 1px solid #666666;
+  }
+
 }
 
 // Sizes

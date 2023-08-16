@@ -1,7 +1,7 @@
 ---
 title: "Falls Group - Home"
 layout: homelay
-excerpt: "Falls Group at Jacobs School of Medicine at the University at Buffalo."
+excerpt: "Falls Group at Jacobs School of Medicine and Biomedical Sciences at the University at Buffalo."
 sitemap: false
 permalink: /
 ---

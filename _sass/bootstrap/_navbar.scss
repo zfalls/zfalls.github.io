@@ -395,13 +395,20 @@
 
 // Default navbar
 .navbar-default {
+  //background-color: #005bbb;
   background-color: $navbar-default-bg;
+  //border-color: #e4e4e4;
+  //border-color: #666666;
   border-color: $navbar-default-border;
 
   .navbar-brand {
+    //color: #ffffff;
     color: $navbar-default-brand-color;
+	font-weight: bold;
+
     &:hover,
     &:focus {
+      //color: #00a69c;
       color: $navbar-default-brand-hover-color;
       background-color: $navbar-default-brand-hover-bg;
     }
@@ -413,10 +420,12 @@
 
   .navbar-nav {
     > li > a {
+	  //color: #e4e4e4;
       color: $navbar-default-link-color;
 
       &:hover,
       &:focus {
+        //color: #00a69c;
         color: $navbar-default-link-hover-color;
         background-color: $navbar-default-link-hover-bg;
       }

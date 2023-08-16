@@ -48,7 +48,15 @@
 // Optional footer (stays gray in every modifier class)
 .panel-footer {
   padding: $panel-footer-padding;
+  //color: #000000;
+  //color: #ffffff;
+  a {
+    color: #00a69c;
+    //color: #2f9fd0;
+  }
+  //background-color: #005bbb;
   background-color: $panel-footer-bg;
+  //border-top: 3px solid #e4e4e4;
   border-top: 1px solid $panel-inner-border;
   @include border-bottom-radius(($panel-border-radius - 1));
 }
@@ -165,6 +173,7 @@
   > .panel-body + .table-responsive,
   > .table + .panel-body,
   > .table-responsive + .panel-body {
+    //border-top: 1px solid #00a69c;
     border-top: 1px solid $table-border-color;
   }
   > .table > tbody:first-child > tr:first-child th,
@@ -244,6 +253,7 @@
   .panel-footer {
     border-top: 0;
     + .panel-collapse .panel-body {
+      //border-bottom: 1px solid #00a69c;
       border-bottom: 1px solid $panel-inner-border;
     }
   }
