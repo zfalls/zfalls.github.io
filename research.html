@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Falls Informatics Group</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+  <link rel="icon" type="image/png" href="img/falls_group-logo.png" />
+</head>
+<body>
+
+<div class="ub-stripe"></div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-brand-logo"><img src="img/falls_group-logo.png" alt="Falls Informatics Group" /></div>
+      <div class="nav-brand-text">
+        <span class="nav-brand-name">Falls Informatics Group</span>
+        <span class="nav-brand-dept">Biomedical Informatics · University at Buffalo</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="group.html">Group</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="funding.html">Funding</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="section-label" style="background:rgba(255,184,28,0.15);color:var(--ub-gold);">Research Program</div>
+    <h1>Research Thrusts</h1>
+    <div class="gold-bar"></div>
+    <p>
+      The Falls Informatics Group operates across four interconnected research thrusts spanning
+      computational drug discovery, clinical data science, AI-guided molecular design, and
+      translational applications in infectious disease and oncology.
+    </p>
+  </div>
+</div>
+
+<!-- ── Research Overview ── -->
+<section style="background:var(--ub-light);padding:3rem 0;">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem;">
+      <a href="#thrust-cando" style="text-decoration:none;">
+        <div style="background:var(--white);border:1px solid var(--ub-border);border-radius:var(--radius);padding:1.25rem;text-align:center;transition:box-shadow 0.2s,transform 0.2s;border-top:3px solid var(--ub-blue);" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='';this.style.transform='';">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem;">🧬</div>
+          <div style="font-size:0.82rem;font-weight:700;color:var(--ub-dark);line-height:1.3;">Multiscale Drug Discovery &amp; CANDO</div>
+        </div>
+      </a>
+      <a href="#thrust-clinical" style="text-decoration:none;">
+        <div style="background:var(--white);border:1px solid var(--ub-border);border-radius:var(--radius);padding:1.25rem;text-align:center;transition:box-shadow 0.2s,transform 0.2s;border-top:3px solid var(--ub-blue);" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='';this.style.transform='';">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem;">🏥</div>
+          <div style="font-size:0.82rem;font-weight:700;color:var(--ub-dark);line-height:1.3;">Clinical &amp; Population Informatics</div>
+        </div>
+      </a>
+      <a href="#thrust-ai" style="text-decoration:none;">
+        <div style="background:var(--white);border:1px solid var(--ub-border);border-radius:var(--radius);padding:1.25rem;text-align:center;transition:box-shadow 0.2s,transform 0.2s;border-top:3px solid var(--ub-blue);" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='';this.style.transform='';">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem;">🤖</div>
+          <div style="font-size:0.82rem;font-weight:700;color:var(--ub-dark);line-height:1.3;">AI-Guided Drug Design &amp; Data Science</div>
+        </div>
+      </a>
+      <a href="#thrust-disease" style="text-decoration:none;">
+        <div style="background:var(--white);border:1px solid var(--ub-border);border-radius:var(--radius);padding:1.25rem;text-align:center;transition:box-shadow 0.2s,transform 0.2s;border-top:3px solid var(--ub-blue);" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='';this.style.transform='';">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem;">🦠</div>
+          <div style="font-size:0.82rem;font-weight:700;color:var(--ub-dark);line-height:1.3;">Translational Disease Applications</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Thrust Sections ── -->
+<div>
+
+  <!-- THRUST 1: CANDO -->
+  <section class="thrust-section" id="thrust-cando">
+    <div class="container">
+      <div class="thrust-inner">
+        <div class="thrust-meta">
+          <h4>Key Publications</h4>
+          <ul>
+            <li>Falls et al. <em>Front. Chemistry</em> 2021 — HIV-1 protease inhibitor binding via CANDOCK</li>
+            <li>Mangione, Falls &amp; Samudrala, <em>JCIM</em> 2020 — cando.py open source release</li>
+            <li>Falls et al. <em>BMC Res. Notes</em> 2019 — CANDO scoring criteria</li>
+            <li>Van Norden, Mangione, Falls &amp; Samudrala, <em>Bioinformatics</em> 2025 — Platform benchmarking</li>
+            <li>Mangione, Falls &amp; Samudrala, <em>Front. Pharmacol.</em> 2023 — Biological network characterization</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Related Funding</h4>
+          <ul>
+            <li>NIST High-Performance Computing Drug Discovery Initiative, 2022–2024 ($1M)</li>
+            <li>NIDA K01 — Polypharmacy &amp; Adverse Drug Reactions, 2022–2027 ($1.05M)</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Collaborators</h4>
+          <ul>
+            <li>Ram Samudrala Lab (CANDO co-developer)</li>
+            <li>Roswell Park Comprehensive Cancer Center</li>
+            <li>UB Computational &amp; Data-Enabled Science</li>
+          </ul>
+        </div>
+        <div class="thrust-content">
+          <div class="thrust-number">01</div>
+          <div class="thrust-label">Core Platform</div>
+          <h2 class="thrust-title">Multiscale Drug Discovery &amp; the CANDO Platform</h2>
+          <p>
+            The computational cornerstone of the group is <strong>CANDO</strong> (Computational Analysis of Novel
+            Drug Opportunities), an advanced multiscale drug discovery platform that integrates
+            heterogeneous biological data—including small molecules, genes, proteins, and pathways—into
+            a <strong>human interactomic graph network</strong>. This architecture enables robust, holistic
+            characterization of compound behavior at a systems level, moving beyond single-target
+            approaches to model how drugs engage the entire biological landscape. By generating
+            proteome-wide <strong>interactomic signatures</strong> for each compound, CANDO enables systematic
+            therapeutic repurposing and novel drug candidate prioritization across virtually any
+            disease indication.
+          </p>
+          <p>
+            CANDO integrates <strong>CANDOCK</strong>, a fragment-based molecular docking algorithm that operates
+            at atomic resolution across thousands of protein structures from the Protein Data Bank.
+            Each drug is scored against the full structural proteome, producing a compound interactomic
+            signature capturing polypharmacological behavior. Machine learning models compare these
+            signatures across disease contexts—compounds most similar to approved drugs for a given
+            indication are ranked as strong repurposing candidates, while highly ranked but previously
+            unassociated compounds emerge as novel therapeutic predictions.
+          </p>
+          <p>
+            The platform is open source and actively maintained through the <strong>cando.py</strong> Python library,
+            enabling reproducible bioanalytics workflows at scale. The group continuously benchmarks
+            CANDO's performance against experimental databases, measuring recovery of approved drugs
+            across similarity and consensus lists for multiple indications. By contextualizing drugs
+            in a systems-level, multitarget landscape, CANDO strengthens both efficacy and safety
+            prediction. Applications span COVID-19, influenza, NSCLC, glioma, COPD, HIV,
+            schizophrenia, and osteoarthritis.
+          </p>
+          <div class="thrust-tools">
+            <h4>Methods &amp; Tools</h4>
+            <div class="tool-chip-row">
+              <span class="tool-chip">CANDO</span>
+              <span class="tool-chip">CANDOCK</span>
+              <span class="tool-chip">cando.py</span>
+              <span class="tool-chip">Interactomic Graph Networks</span>
+              <span class="tool-chip">Molecular Docking</span>
+              <span class="tool-chip">Proteome-Wide Screening</span>
+              <span class="tool-chip">DrugBank</span>
+              <span class="tool-chip">Protein Data Bank</span>
+              <span class="tool-chip">Machine Learning</span>
+              <span class="tool-chip">Drug Repurposing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THRUST 2: Clinical -->
+  <section class="thrust-section" id="thrust-clinical">
+    <div class="container">
+      <div class="thrust-inner">
+        <div class="thrust-meta">
+          <h4>Key Publications</h4>
+          <ul>
+            <li>Falls et al. <em>JSAD</em> 2025 — Predictors of OUD development</li>
+            <li>Falls et al. <em>SAR</em> 2024 — Opioid epidemic wave analysis</li>
+            <li>Lu et al. <em>JAPHA</em> 2025 — Prescribing disparity by social determinants</li>
+            <li>Jacobs et al. <em>JGIM</em> 2022 — Opioid &amp; benzodiazepine co-prescribing trends</li>
+            <li>Lu et al. <em>J Biomed Informatics</em> 2023 — NY State AUD cohort linkage</li>
+            <li>Kuo et al. <em>DADR</em> 2024 — High-risk opioid prescribing, 2005–2018</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Related Funding</h4>
+          <ul>
+            <li>NIDA K01 — Polypharmacy &amp; Adverse Drug Reactions, 2022–2027 ($1.05M)</li>
+            <li>NCATS CTSA — UB Clinical &amp; Translational Science Award, 2025–2031 ($29.2M)</li>
+            <li>NLM BRIGHT Education Training Program, 2022–2027 ($2M)</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Data Sources</h4>
+          <ul>
+            <li>NY OASAS Medicaid Claims (2005–2018)</li>
+            <li>SPARCS Inpatient/Outpatient Records</li>
+            <li>UB Clinical &amp; Translational Research Center EHR</li>
+          </ul>
+        </div>
+        <div class="thrust-content">
+          <div class="thrust-number">02</div>
+          <div class="thrust-label">Real-World Evidence</div>
+          <h2 class="thrust-title">Clinical &amp; Population-Scale Informatics</h2>
+          <p>
+            A major arm of the group's research leverages large-scale electronic health records (EHR)
+            and statewide Medicaid administrative claims to characterize real-world prescribing patterns,
+            disease trajectories, and treatment outcomes. The group has curated a <strong>large corpus of
+            client and claims data</strong> for patients treated for substance use disorders—spanning millions
+            of encounters across New York State—enabling epidemiological analyses of overdose and
+            abuse risks that are impossible in smaller clinical trial settings.
+          </p>
+          <p>
+            Research in this thrust centers on the <strong>opioid crisis</strong>: identifying social and clinical
+            predictors of opioid use disorder (OUD) emergence among patients treated for alcohol use
+            disorder (AUD), quantifying how prescribing of opioids, benzodiazepines, and controlled
+            substances has shifted across the three waves of the opioid epidemic, and mapping disparities
+            in access to opioid agonist therapy by race, geography, and social determinants of health.
+            These contributions generate evidence-based results that can inform providers and drive
+            policy changes to better serve at-risk populations.
+          </p>
+          <p>
+            A connected line of work investigates <strong>polypharmacy-induced adverse drug reactions (ADRs)</strong>.
+            Under a NIDA K01 award, the group is developing a translational bioinformatics model that
+            integrates drug–protein interaction data and patient-level clinical data into a
+            <strong>deep learning architecture</strong> to accurately predict severe ADRs in patients receiving opioid
+            therapeutics with co-prescriptions. A parallel Sinsheimer-funded project develops
+            AI-driven proteomic ensemble models for precision clinical trial design. Together, these
+            efforts bridge computational and clinical data to identify dangerous drug combinations and
+            enable safer, personalized treatment strategies.
+          </p>
+          <div class="thrust-tools">
+            <h4>Methods &amp; Tools</h4>
+            <div class="tool-chip-row">
+              <span class="tool-chip">SAS</span>
+              <span class="tool-chip">R</span>
+              <span class="tool-chip">SQL</span>
+              <span class="tool-chip">Deep Learning</span>
+              <span class="tool-chip">ADR Prediction</span>
+              <span class="tool-chip">Medicaid Claims</span>
+              <span class="tool-chip">SPARCS</span>
+              <span class="tool-chip">EHR Analytics</span>
+              <span class="tool-chip">Epidemiology</span>
+              <span class="tool-chip">Longitudinal Cohort Design</span>
+              <span class="tool-chip">Social Determinants of Health</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THRUST 3: AI -->
+  <section class="thrust-section" id="thrust-ai">
+    <div class="container">
+      <div class="thrust-inner">
+        <div class="thrust-meta">
+          <h4>Key Publications</h4>
+          <ul>
+            <li>Overhoff, Falls et al. <em>Pharmaceuticals</em> 2021 — Proteomic-scale deep learning for drug design</li>
+            <li>Moukheiber, Mangione, Falls et al. <em>Molecules</em> 2022 — ML toxicity with Tox21</li>
+            <li>Van Norden, Falls et al. <em>Comm. Biology</em> 2024 — APOBEC3 C-to-U RNA editing &amp; disease</li>
+            <li>Xu, Falls et al. <em>BMC Pharmacol. Toxicol.</em> 2025 — De novo therapeutic candidate generation</li>
+            <li>Chatrikhi, Falls et al. <em>Cell Chem. Biol.</em> 2021 — Small molecule pre-mRNA splicing</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Related Funding</h4>
+          <ul>
+            <li>Sinsheimer Scholar Award, 2024–2026 ($60K)</li>
+            <li>NLM BRIGHT Program (AI/ML training), 2022–2027</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Focus Areas</h4>
+          <ul>
+            <li>Structure-based de novo molecular generation</li>
+            <li>Proteome-scale deep learning architectures</li>
+            <li>APOBEC3-mediated RNA editing &amp; disease variants</li>
+            <li>Computational toxicology &amp; bioassay ML</li>
+          </ul>
+        </div>
+        <div class="thrust-content">
+          <div class="thrust-number">03</div>
+          <div class="thrust-label">Data Science &amp; Machine Learning</div>
+          <h2 class="thrust-title">AI-Guided Drug Design, Data Science &amp; Genomics</h2>
+          <p>
+            A foundational aspect of the group's work is the extraction, curation, and maintenance of
+            diverse biomedical data from public and private sources. The group creates and maintains
+            unique databases integrating <strong>heterogeneous data types</strong>—structural proteomics, genomics,
+            chemical libraries, clinical records, and biological networks—into unified computational
+            frameworks. This data science infrastructure underpins the CANDO platform and enables
+            multiscale drug discovery across all research thrusts, continuously moving towards
+            bridging gaps between separate data sources and types.
+          </p>
+          <p>
+            On the deep learning front, the group has developed several novel tools extending CANDO's
+            predictive and generative capabilities: <strong>FusionNet</strong> for small molecule–protein binding
+            affinity prediction; <strong>CVAE</strong> and <strong>CGGM</strong> for proteomic-scale generative drug design using
+            deep learning with proteomic-level objectives; and <strong>RNAsee</strong> for transcriptome-scale RNA
+            editing site identification. These tools represent new methodological contributions to
+            biomedical informatics and cheminformatics, and are complemented by machine learning-based
+            toxicity prediction using large-scale bioassay data such as Tox21.
+          </p>
+          <p>
+            A distinct but related line investigates <strong>RNA biology informatics</strong>. APOBEC3 enzyme-mediated
+            C-to-U RNA editing is a post-transcriptional regulatory mechanism with broad implications
+            for human disease, cancer biology, and human biodiversity. The group catalogs C-to-U editing
+            events across human transcriptomes, assesses their consequences for protein function and
+            disease variant interpretation, and evaluates their biological roles. The group also applies
+            computational methods to small molecule modulation of pre-mRNA splicing and protein
+            aggregation inhibition in cancer-associated mutant p53.
+          </p>
+          <div class="thrust-tools">
+            <h4>Methods &amp; Tools</h4>
+            <div class="tool-chip-row">
+              <span class="tool-chip">FusionNet</span>
+              <span class="tool-chip">RNAsee</span>
+              <span class="tool-chip">CVAE</span>
+              <span class="tool-chip">CGGM</span>
+              <span class="tool-chip">PyTorch</span>
+              <span class="tool-chip">Deep Learning</span>
+              <span class="tool-chip">Graph Neural Networks</span>
+              <span class="tool-chip">RDKit</span>
+              <span class="tool-chip">Tox21</span>
+              <span class="tool-chip">De Novo Generation</span>
+              <span class="tool-chip">RNA Editing</span>
+              <span class="tool-chip">APOBEC3</span>
+              <span class="tool-chip">Transcriptomics</span>
+              <span class="tool-chip">Network Toxicology</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THRUST 4: Disease -->
+  <section class="thrust-section" id="thrust-disease">
+    <div class="container">
+      <div class="thrust-inner">
+        <div class="thrust-meta">
+          <h4>Key Publications</h4>
+          <ul>
+            <li>Mangione, Falls &amp; Samudrala, <em>Front. Pharmacol.</em> 2022 — COVID-19 CANDO candidates</li>
+            <li>Mangione, Falls et al. <em>Drug Discov. Today</em> 2020 — Shotgun repurposing for pandemics</li>
+            <li>Kumari, Falls et al. <em>Clin. Microbiol. Rev.</em> 2023 — Influenza antiviral strategies</li>
+            <li>Bruggemann, Falls et al. <em>IJMS</em> 2023 — KRAS drug combinations in NSCLC</li>
+            <li>Xu, Falls et al. <em>bioRxiv</em> 2025 — Glioma therapeutic candidates via CANDO</li>
+            <li>Falls, Fine, Chopra &amp; Samudrala, <em>Front. Chem.</em> 2021 — HIV-1 protease inhibitor prediction</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Disease Focus Areas</h4>
+          <ul>
+            <li>COVID-19 &amp; SARS-CoV-2</li>
+            <li>Influenza A/B</li>
+            <li>HIV-1</li>
+            <li>KRAS-mutant NSCLC</li>
+            <li>Glioblastoma &amp; Glioma</li>
+            <li>COPD</li>
+          </ul>
+          <h4 style="margin-top:1.25rem;">Wet-Lab Partners</h4>
+          <ul>
+            <li>Roswell Park Comprehensive Cancer Center</li>
+            <li>UB Jacobs School of Medicine</li>
+            <li>External virology validation collaborators</li>
+          </ul>
+        </div>
+        <div class="thrust-content">
+          <div class="thrust-number">04</div>
+          <div class="thrust-label">Disease Translation</div>
+          <h2 class="thrust-title">Translational Applications: Infectious Disease, Oncology &amp; Substance Use</h2>
+          <p>
+            Computational insights from the CANDO platform and the group's AI tools are applied to
+            discover repurposed therapeutics and design <strong>novel chemical entities with desired biological
+            behavior</strong> across multiple disease domains. In <strong>infectious disease</strong>, the group pioneered
+            "shotgun drug repurposing"—proteome-wide screening of all approved drugs to identify
+            candidates against emerging pathogens. Applications to COVID-19 produced repurposed
+            therapeutic candidates early in the pandemic; analogous programs targeted influenza antiviral
+            mechanisms and HIV-1 protease inhibition, demonstrating the speed and breadth of the
+            CANDO approach.
+          </p>
+          <p>
+            In <strong>oncology</strong>, the group focuses on driver mutation-targeted drug combination strategies.
+            For KRAS-mutant non-small cell lung cancer (NSCLC)—one of the most treatment-refractory
+            cancer subtypes—multiscale CANDO analysis identified synergistic drug pairings validated
+            through computational and experimental collaboration with Roswell Park. For glioma, optimal
+            therapeutic candidates are systematically prioritized from approved and investigational
+            compound libraries, with results published in the <em>Journal of Cheminformatics</em> (2026).
+            Additional contributions span COPD proteomics-guided discovery, cancer-associated mutant
+            p53 aggregation inhibition, and structure-based HIV-1 inhibitor design.
+          </p>
+          <p>
+            A third disease focus is <strong>substance use disorder</strong>. Aligned with NIDA-funded research,
+            the group applies CANDO to design and validate optimal <strong>nonaddictive analgesics</strong>—performing
+            analytics across all drugs and compounds to define proteomic objectives for candidate
+            analgesics that are subsequently synthesized and preclinically validated. This work bridges
+            the group's computational drug discovery expertise with its clinical informatics research
+            on opioid prescribing and adverse outcomes, creating an integrated pipeline from molecular
+            design to real-world therapeutic impact.
+          </p>
+          <div class="thrust-tools">
+            <h4>Methods &amp; Tools</h4>
+            <div class="tool-chip-row">
+              <span class="tool-chip">CANDO</span>
+              <span class="tool-chip">CANDOCK</span>
+              <span class="tool-chip">Drug Repurposing</span>
+              <span class="tool-chip">Molecular Docking</span>
+              <span class="tool-chip">Network Analysis</span>
+              <span class="tool-chip">Drug Combination Synergy</span>
+              <span class="tool-chip">Nonaddictive Analgesics</span>
+              <span class="tool-chip">Substance Use Disorder</span>
+              <span class="tool-chip">Proteomics</span>
+              <span class="tool-chip">Bioinformatics</span>
+              <span class="tool-chip">In Vitro Validation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ── Funding Section ── -->
+<section class="grants-section">
+  <div class="container">
+    <div class="section-label" style="background:rgba(255,184,28,0.15);color:var(--ub-gold);">Funding</div>
+    <h2 class="grants-heading">Research Support</h2>
+    <p class="grants-sub">Active grants and awards supporting the Falls Informatics Group research program.</p>
+    <div class="grants-grid">
+      <div class="grant-card">
+        <div class="grant-agency">NCATS / CTSA</div>
+        <div class="grant-title">CTSA — UB Clinical &amp; Translational Science Award</div>
+        <div class="grant-amount">$29.2M</div>
+        <div class="grant-period">2025 – 2031</div>
+      </div>
+      <div class="grant-card">
+        <div class="grant-agency">NIDA</div>
+        <div class="grant-title">Polypharmacy Adverse Drug Reactions — Translational Bioinformatics (K01, PI)</div>
+        <div class="grant-amount">$1.05M</div>
+        <div class="grant-period">2022 – 2027</div>
+      </div>
+      <div class="grant-card">
+        <div class="grant-agency">NLM</div>
+        <div class="grant-title">BRIGHT Education Training Program</div>
+        <div class="grant-amount">$2M</div>
+        <div class="grant-period">2022 – 2027</div>
+      </div>
+      <div class="grant-card">
+        <div class="grant-agency">Sinsheimer Foundation</div>
+        <div class="grant-title">Sinsheimer Scholar Award (PI)</div>
+        <div class="grant-amount">$60K</div>
+        <div class="grant-period">2024 – 2026</div>
+      </div>
+      <div class="grant-card">
+        <div class="grant-agency">NIST</div>
+        <div class="grant-title">High-Performance Computing Drug Discovery Initiative</div>
+        <div class="grant-amount">$1M</div>
+        <div class="grant-period">2022 – 2024</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Collaboration CTA ── -->
+<section>
+  <div class="container">
+    <div style="background:var(--ub-light);border-radius:var(--radius-lg);padding:3rem;text-align:center;border-top:4px solid var(--ub-gold);">
+      <div class="section-label" style="margin:0 auto 0.75rem;">Get Involved</div>
+      <h2 class="section-heading">Interested in Collaboration or Joining?</h2>
+      <div class="gold-bar" style="margin:0.75rem auto 1.5rem;"></div>
+      <p style="color:var(--ub-gray);max-width:580px;margin:0 auto 2rem;font-size:0.97rem;">
+        We welcome collaborators from wet-lab biology, clinical medicine, and data science,
+        as well as motivated graduate students, postdoctoral fellows, and undergraduates
+        interested in computational drug discovery and biomedical informatics.
+      </p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="mailto:zmfalls@buffalo.edu" class="btn btn-gold">Contact Dr. Falls</a>
+        <a href="publications.html" class="btn" style="background:var(--white);color:var(--ub-dark);border:2px solid var(--ub-border);">View Publications</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Falls Informatics Group</h3>
+        <p>Data-centric computational biomedical research at the intersection of
+        drug discovery, machine learning, and clinical informatics.</p>
+        <div class="footer-contact">
+          <div>📍 77 Goodell Street, Suite 540, Buffalo, NY 14203</div>
+          <div>📞 716-881-8927</div>
+          <div>✉️ <a href="mailto:zmfalls@buffalo.edu">zmfalls@buffalo.edu</a></div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="group.html">Group</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="funding.html">Funding</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>External Links</h4>
+        <ul>
+          <li><a href="https://medicine.buffalo.edu/departments/biomedical-informatics.html" target="_blank">Dept. of Biomedical Informatics</a></li>
+          <li><a href="https://medicine.buffalo.edu" target="_blank">Jacobs School of Medicine</a></li>
+          <li><a href="https://www.buffalo.edu" target="_blank">University at Buffalo</a></li>
+          <li><a href="https://medicine.buffalo.edu/faculty/profile.html?ubit=zmfalls" target="_blank">Faculty Profile</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Falls Informatics Group · University at Buffalo</p>
+      <p>Department of Biomedical Informatics · Jacobs School of Medicine &amp; Biomedical Sciences</p>
+    </div>
+  </div>
+</footer>
+
+<div class="ub-stripe"></div>
+
+</body>
+</html>

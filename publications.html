@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Falls Informatics Group</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+  <link rel="icon" type="image/png" href="img/falls_group-logo.png" />
+</head>
+<body>
+
+<div class="ub-stripe"></div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-brand-logo"><img src="img/falls_group-logo.png" alt="Falls Informatics Group" /></div>
+      <div class="nav-brand-text">
+        <span class="nav-brand-name">Falls Informatics Group</span>
+        <span class="nav-brand-dept">Biomedical Informatics · University at Buffalo</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="group.html">Group</a></li>
+      <li><a href="publications.html" class="active">Publications</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="funding.html">Funding</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="section-label" style="background:rgba(255,184,28,0.15);color:var(--ub-gold);">Scholarly Work</div>
+    <h1>Publications</h1>
+    <div class="gold-bar"></div>
+    <p>Peer-reviewed articles, preprints, and proceedings from the Falls Informatics Group.
+      <strong style="color:var(--ub-gold);">Falls, Z.</strong> is highlighted in each author list.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+
+    <!-- Stats Bar -->
+    <div style="display:flex;gap:2.5rem;flex-wrap:wrap;align-items:center;margin-bottom:2.5rem;padding:1.5rem 2rem;background:var(--ub-light);border-radius:var(--radius-lg);">
+      <div>
+        <div style="font-size:2rem;font-weight:800;color:var(--ub-dark);line-height:1;">39+</div>
+        <div style="font-size:0.74rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ub-gray);margin-top:0.2rem;">Total Publications</div>
+      </div>
+      <div style="width:1px;height:40px;background:var(--ub-border);"></div>
+      <div>
+        <div style="font-size:2rem;font-weight:800;color:var(--ub-dark);line-height:1;">2013–2026</div>
+        <div style="font-size:0.74rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ub-gray);margin-top:0.2rem;">Publication Span</div>
+      </div>
+      <div style="width:1px;height:40px;background:var(--ub-border);"></div>
+      <div>
+        <div style="font-size:2rem;font-weight:800;color:var(--ub-dark);line-height:1;">15+</div>
+        <div style="font-size:0.74rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ub-gray);margin-top:0.2rem;">Distinct Journals</div>
+      </div>
+      <div style="margin-left:auto;">
+        <a href="https://medicine.buffalo.edu/faculty/profile.html?ubit=zmfalls" target="_blank" class="btn btn-gold" style="font-size:0.82rem;">Full Faculty Profile ↗</a>
+      </div>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="pub-filters">
+      <button class="pub-filter-btn active" onclick="filterPubs('all', this)">All Publications</button>
+      <button class="pub-filter-btn" onclick="filterPubs('drug-discovery', this)">Drug Discovery</button>
+      <button class="pub-filter-btn" onclick="filterPubs('clinical', this)">Clinical Informatics</button>
+      <button class="pub-filter-btn" onclick="filterPubs('infectious', this)">Infectious Disease</button>
+      <button class="pub-filter-btn" onclick="filterPubs('oncology', this)">Oncology</button>
+      <button class="pub-filter-btn" onclick="filterPubs('genomics', this)">Genomics &amp; RNA</button>
+      <button class="pub-filter-btn" onclick="filterPubs('computational', this)">Computational Methods</button>
+    </div>
+
+    <!-- ── 2026 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2026 <span class="pub-year-count">4</span></div>
+
+      <div class="pub-item" data-cat="drug-discovery oncology computational">
+        <div class="pub-title">Combining cutting edge computational and experimental methods for targeting KRAS mutations in non-small cell lung cancer</div>
+        <div class="pub-authors">Samudrala, R., Bruggemann, L., <strong>Falls, Z.</strong>, Mahajan, S.D.</div>
+        <div class="pub-journal"><em>Expert Opinion on Drug Discovery</em>. 2026.
+          <a href="https://doi.org/10.1080/17460441.2026.2654614" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery oncology computational">
+        <div class="pub-title">Multiscale analysis and optimal glioma therapeutic candidate discovery using the CANDO platform</div>
+        <div class="pub-authors">Xu, S., Hu, Y., Mangione, W., Van Norden, M., Elefteriou, K., <strong>Falls, Z.</strong>, Samudrala, R.</div>
+        <div class="pub-journal"><em>Journal of Cheminformatics</em>. 2026.
+          <a href="https://doi.org/10.1186/s13321-026-01191-9" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery computational">
+        <div class="pub-title">Deciphering bisphenol A (BPA)-elicited osteoarthritis mechanisms through network toxicology and molecular docking, then de novo generation of novel therapeutic candidates</div>
+        <div class="pub-authors">Xu, S., Jiang, L., Zhang, Z., Luo, X., Wu, W., Wu, H., Huang, Z., <strong>Falls, Z.</strong>, Samudrala, R., Tan, Z.</div>
+        <div class="pub-journal"><em>BMC Pharmacology &amp; Toxicology</em>, 27(1): 20. 2026.
+          <a href="https://doi.org/10.1186/s40360-025-01069-w" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery computational">
+        <div class="pub-title">Uncovering novel therapeutics for schizophrenia: a multitarget approach using the CANDO platform</div>
+        <div class="pub-authors">Hu, Y., Elefteriou, K., <strong>Falls, Z.</strong>, Samudrala, R.</div>
+        <div class="pub-journal"><em>bioRxiv</em> [Preprint]. 2026.
+          <a href="https://doi.org/10.1101/2025.10.24.684257" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2025 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2025 <span class="pub-year-count">3</span></div>
+
+      <div class="pub-item" data-cat="drug-discovery computational">
+        <div class="pub-title">Strategies for robust, accurate, and generalizable benchmarking of drug discovery platforms</div>
+        <div class="pub-authors">Van Norden, M., Mangione, W., <strong>Falls, Z.</strong>, Samudrala, R.</div>
+        <div class="pub-journal"><em>Bioinformatics</em>, 41(11). 2025.
+          <a href="https://doi.org/10.1093/bioinformatics/btae646" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="clinical">
+        <div class="pub-title">Predictors of the Rapid vs Longer Term Development of Opioid Use Disorder or Overdose among Clients Treated for an Alcohol Use Problem</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Zhang, X., Jacobs, D.M., et al.</div>
+        <div class="pub-journal"><em>Journal of Studies on Alcohol and Drugs</em>. April 2025.
+          <a href="https://doi.org/10.15288/jsad.24-00401" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="clinical">
+        <div class="pub-title">Differences in prescribing patterns of opioid dependence drugs among patients with primary alcohol use problems and opioid use disorders within New York State by social determinant factors, 2005–2018</div>
+        <div class="pub-authors">Lu, C.H., Su, H.Y., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Journal of the American Pharmacists Association</em>, 102258. 2025.
+          <a href="https://doi.org/10.1016/j.japh.2024.102258" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2024 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2024 <span class="pub-year-count">5</span></div>
+
+      <div class="pub-item" data-cat="clinical">
+        <div class="pub-title">High-risk use of prescription opioids among patients treated for alcohol problems in New York State. A repeated cross-sectional study, 2005–2018</div>
+        <div class="pub-authors">Kuo, T.Y., Lu, C.H., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Drug and Alcohol Dependence Reports</em>, 12: 100278. 2024.
+          <a href="https://doi.org/10.1016/j.dadr.2024.100278" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="clinical">
+        <div class="pub-title">The Effect of Antidepressants on Withdrawal in Patients with Alcohol Dependence: A Retrospective Study</div>
+        <div class="pub-authors">Tomlin, C., Piracha, M.U., Stephens, R., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Studies in Health Technology and Informatics</em>, 316: 284–285. 2024.</div>
+      </div>
+
+      <div class="pub-item" data-cat="genomics">
+        <div class="pub-title">The implications of APOBEC3-mediated C-to-U RNA editing for human disease</div>
+        <div class="pub-authors">Van Norden, M., <strong>Falls, Z.</strong>, Mandloi, S., et al.</div>
+        <div class="pub-journal"><em>Communications Biology</em>, 7(1): 529. 2024.
+          <a href="https://doi.org/10.1038/s42003-024-06239-w" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">Building Chemical Intuition about Physicochemical Properties of C8-Per-/Polyfluoroalkyl Carboxylic Acids through Computational Means</div>
+        <div class="pub-authors">Antle, J.P., LaRock, M.A., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>ACS ES&amp;T Engineering</em>, 4(1): 196–208. 2024.
+          <a href="https://doi.org/10.1021/acsestenng.3c00267" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="clinical">
+        <div class="pub-title">Incidence, Timing and Social Correlates of the Development of Opioid Use Disorder Among Clients Seeking Treatment for an Alcohol Use Problem: Changes Over the Three Waves of the Opioid Epidemic</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Zhang, X., Elkin, P.L., et al.</div>
+        <div class="pub-journal"><em>Substance Abuse and Rehabilitation</em>, 15: 185–195. 2024.
+          <a href="https://doi.org/10.2147/SAR.S482717" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2023 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2023 <span class="pub-year-count">5</span></div>
+
+      <div class="pub-item" data-cat="clinical">
+        <div class="pub-title">A cohort of patients in New York State with an alcohol use disorder and subsequent treatment information — A merging of two administrative data sources</div>
+        <div class="pub-authors">Lu, C.H., Jette, G., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Journal of Biomedical Informatics</em>, 144: 104443. 2023.
+          <a href="https://doi.org/10.1016/j.jbi.2023.104443" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="genomics">
+        <div class="pub-title">The Role of C-to-U RNA Editing in Human Biodiversity</div>
+        <div class="pub-authors">Van Norden, M., <strong>Falls, Z.</strong>, Mandloi, S., et al.</div>
+        <div class="pub-journal"><em>bioRxiv</em> [Preprint]. 2023.
+          <a href="https://doi.org/10.1101/2023.07.31.550344" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery computational">
+        <div class="pub-title">Effective holistic characterization of small molecule effects using heterogeneous biological networks</div>
+        <div class="pub-authors">Mangione, W., <strong>Falls, Z.</strong>, Samudrala, R.</div>
+        <div class="pub-journal"><em>Frontiers in Pharmacology</em>, 14: 1113007. 2023.
+          <a href="https://doi.org/10.3389/fphar.2023.1113007" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery oncology">
+        <div class="pub-title">Multiscale Analysis and Validation of Effective Drug Combinations Targeting Driver KRAS Mutations in Non-Small Cell Lung Cancer</div>
+        <div class="pub-authors">Bruggemann, L., <strong>Falls, Z.</strong>, Mangione, W., et al.</div>
+        <div class="pub-journal"><em>International Journal of Molecular Sciences</em>, 24(2). 2023.
+          <a href="https://doi.org/10.3390/ijms24020997" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="infectious">
+        <div class="pub-title">Antiviral Approaches against Influenza Virus</div>
+        <div class="pub-authors">Kumari, R., Sharma, S.D., Kumar, A., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Clinical Microbiology Reviews</em>, e0004022. 2023.
+          <a href="https://doi.org/10.1128/cmr.00040-22" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2022 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2022 <span class="pub-year-count">5</span></div>
+
+      <div class="pub-item" data-cat="clinical">
+        <div class="pub-title">Trends in Prescribing Opioids, Benzodiazepines, and Both Among Adults with Alcohol Use Disorder in New York State</div>
+        <div class="pub-authors">Jacobs, D.M., Tober, R., Yu, C., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Journal of General Internal Medicine</em>. June 2022.
+          <a href="https://doi.org/10.1007/s11606-022-07607-0" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery oncology">
+        <div class="pub-title">Proteomic Network Analysis of Bronchoalveolar Lavage Fluid in Ex-Smokers to Discover Implicated Protein Targets and Novel Drug Treatments for Chronic Obstructive Pulmonary Disease</div>
+        <div class="pub-authors">Mammen, M.J., Tu, C., Morris, M.C., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Pharmaceuticals</em>, 15(5). 2022.
+          <a href="https://doi.org/10.3390/ph15050566" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="computational drug-discovery">
+        <div class="pub-title">Identifying Protein Features and Pathways Responsible for Toxicity Using Machine Learning and Tox21: Implications for Predictive Toxicology</div>
+        <div class="pub-authors">Moukheiber, L., Mangione, W., Moukheiber, M., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Molecules</em>, 27(9). 2022.
+          <a href="https://doi.org/10.3390/molecules27093021" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery infectious">
+        <div class="pub-title">Optimal COVID-19 therapeutic candidate discovery using the CANDO platform</div>
+        <div class="pub-authors">Mangione, W., <strong>Falls, Z.</strong>, Samudrala, R.</div>
+        <div class="pub-journal"><em>Frontiers in Pharmacology</em>, 13: 970494. 2022.
+          <a href="https://doi.org/10.3389/fphar.2022.970494" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery">
+        <div class="pub-title">Evaluating the performance of drug-repurposing technologies</div>
+        <div class="pub-authors">Schuler, J., <strong>Falls, Z.</strong>, Mangione, W., et al.</div>
+        <div class="pub-journal"><em>Drug Discovery Today</em>, 27(1): 49–64. 2022.
+          <a href="https://doi.org/10.1016/j.drudis.2021.09.003" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2021 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2021 <span class="pub-year-count">5</span></div>
+
+      <div class="pub-item" data-cat="drug-discovery computational">
+        <div class="pub-title">A Deep-Learning Proteomic-Scale Approach for Drug Design</div>
+        <div class="pub-authors">Overhoff, B., <strong>Falls, Z.</strong>, Mangione, W., Samudrala, R.</div>
+        <div class="pub-journal"><em>Pharmaceuticals</em>, 14(12). 2021.
+          <a href="https://doi.org/10.3390/ph14121277" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="infectious">
+        <div class="pub-title">A fluorescence-based, gain-of-signal, live cell system to evaluate SARS-CoV-2 main protease inhibition</div>
+        <div class="pub-authors">Dey-Rao, R., Smith, G.R., Timilsina, U., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Antiviral Research</em>, 195: 105183. 2021.
+          <a href="https://doi.org/10.1016/j.antiviral.2021.105183" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="genomics">
+        <div class="pub-title">A synthetic small molecule stalls pre-mRNA splicing by promoting an early-stage U2AF2-RNA complex</div>
+        <div class="pub-authors">Chatrikhi, R., Feeney, C.F., Pulvino, M.J., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Cell Chemical Biology</em>, 28(8): 1145–1157.e6. 2021.
+          <a href="https://doi.org/10.1016/j.chembiol.2021.02.007" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="oncology">
+        <div class="pub-title">Protein mimetic amyloid inhibitor potently abrogates cancer-associated mutant p53 aggregation and restores tumor suppressor function</div>
+        <div class="pub-authors">Palanikumar, L., Karpauskaite, L., Al-Sayegh, M., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Nature Communications</em>, 12(1): 3962. 2021.
+          <a href="https://doi.org/10.1038/s41467-021-23985-1" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery infectious">
+        <div class="pub-title">Accurate Prediction of Inhibitor Binding to HIV-1 Protease Using CANDOCK</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Fine, J., Chopra, G., Samudrala, R.</div>
+        <div class="pub-journal"><em>Frontiers in Chemistry</em>, 9: 775513. 2021.
+          <a href="https://doi.org/10.3389/fchem.2021.775513" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2020 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2020 <span class="pub-year-count">4</span></div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">The XtalOpt evolutionary algorithm for crystal structure prediction</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Avery, P., Wang, X., et al.</div>
+        <div class="pub-journal"><em>The Journal of Physical Chemistry C</em>, 125(3): 1601–1620. 2020.
+          <a href="https://doi.org/10.1021/acs.jpcc.0c09531" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery computational">
+        <div class="pub-title">cando.py: Open Source Software for Predictive Bioanalytics of Large Scale Drug-Protein-Disease Data</div>
+        <div class="pub-authors">Mangione, W., <strong>Falls, Z.</strong>, Chopra, G., Samudrala, R.</div>
+        <div class="pub-journal"><em>Journal of Chemical Information and Modeling</em>, 60(9): 4131–4136. 2020.
+          <a href="https://doi.org/10.1021/acs.jcim.0c00110" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="drug-discovery infectious">
+        <div class="pub-title">Shotgun drug repurposing biotechnology to tackle epidemics and pandemics</div>
+        <div class="pub-authors">Mangione, W., <strong>Falls, Z.</strong>, Melendy, T., et al.</div>
+        <div class="pub-journal"><em>Drug Discovery Today</em>, 25(7): 1126–1128. 2020.
+          <a href="https://doi.org/10.1016/j.drudis.2020.05.002" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="genomics clinical">
+        <div class="pub-title">Association of C&gt;U RNA Editing with Human Disease Variants</div>
+        <div class="pub-authors">Mandloi, S., <strong>Falls, Z.</strong>, Deng, R., et al.</div>
+        <div class="pub-journal"><em>Studies in Health Technology and Informatics</em>, 270: 1205–1206. 2020.
+          <a href="https://doi.org/10.3233/SHTI200350" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2019 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2019 <span class="pub-year-count">1</span></div>
+
+      <div class="pub-item" data-cat="drug-discovery computational">
+        <div class="pub-title">Exploration of interaction scoring criteria in the CANDO platform</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Mangione, W., Schuler, J., Samudrala, R.</div>
+        <div class="pub-journal"><em>BMC Research Notes</em>, 12(1): 318. 2019.
+          <a href="https://doi.org/10.1186/s13104-019-4356-3" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2018 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2018 <span class="pub-year-count">1</span></div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">XtalOpt version r11: An open-source evolutionary algorithm for crystal structure prediction</div>
+        <div class="pub-authors">Avery, P., <strong>Falls, Z.</strong>, Zurek, E.</div>
+        <div class="pub-journal"><em>Computer Physics Communications</em>, 222: 418–419. 2018.
+          <a href="https://doi.org/10.1016/j.cpc.2017.09.011" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2017 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2017 <span class="pub-year-count">1</span></div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">XtalOpt Version r10: An open-source evolutionary algorithm for crystal structure prediction</div>
+        <div class="pub-authors">Avery, P., <strong>Falls, Z.</strong>, Zurek, E.</div>
+        <div class="pub-journal"><em>Computer Physics Communications</em>, 217: 210–211. 2017.
+          <a href="https://doi.org/10.1016/j.cpc.2017.04.001" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2016 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2016 <span class="pub-year-count">3</span></div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">Computational prediction and analysis of the <sup>27</sup>Al solid-state NMR spectrum of methylaluminoxane (MAO) at variable temperatures and field strengths</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Zurek, E., Autschbach, J.</div>
+        <div class="pub-journal"><em>Physical Chemistry Chemical Physics</em>, 18(34): 24106–24118. 2016.
+          <a href="https://doi.org/10.1039/C6CP05100A" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">Decomposition Products of Phosphine Under Pressure: PH<sub>2</sub> Stable and Superconducting?</div>
+        <div class="pub-authors">Shamp, A., Terpstra, T., Bi, T., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Journal of the American Chemical Society</em>, 138(6): 1884–1892. 2016.
+          <a href="https://doi.org/10.1021/jacs.5b11851" target="_blank">DOI</a>
+        </div>
+      </div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">XtalOpt version r9: An open-source evolutionary algorithm for crystal structure prediction</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Lonie, D.C., Avery, P., et al.</div>
+        <div class="pub-journal"><em>Computer Physics Communications</em>, 199: 178–179. 2016.
+          <a href="https://doi.org/10.1016/j.cpc.2015.09.018" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2014 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2014 <span class="pub-year-count">1</span></div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">The Dynamic Equilibrium Between (AlOMe)<sub>n</sub> Cages and (AlOMe)<sub>n</sub>·(AlMe<sub>3</sub>)<sub>m</sub> Nanotubes in Methylaluminoxane (MAO): A First-Principles Investigation</div>
+        <div class="pub-authors"><strong>Falls, Z.</strong>, Tyminska, N., Zurek, E.</div>
+        <div class="pub-journal"><em>Macromolecules</em>, 47(24): 8556–8569. 2014.
+          <a href="https://doi.org/10.1021/ma501892v" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2013 ── -->
+    <div class="pub-year-group">
+      <div class="pub-year-label">2013 <span class="pub-year-count">1</span></div>
+
+      <div class="pub-item" data-cat="computational">
+        <div class="pub-title">Determination of the structures of molecularly imprinted polymers and xerogels using an automated stochastic approach</div>
+        <div class="pub-authors">Wach, A., Chen, J., <strong>Falls, Z.</strong>, et al.</div>
+        <div class="pub-journal"><em>Analytical Chemistry</em>, 85(18): 8577–8584. 2013.
+          <a href="https://doi.org/10.1021/ac4018409" target="_blank">DOI</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Falls Informatics Group</h3>
+        <p>Data-centric computational biomedical research at the intersection of
+        drug discovery, machine learning, and clinical informatics.</p>
+        <div class="footer-contact">
+          <div>📍 77 Goodell Street, Suite 540, Buffalo, NY 14203</div>
+          <div>📞 716-881-8927</div>
+          <div>✉️ <a href="mailto:zmfalls@buffalo.edu">zmfalls@buffalo.edu</a></div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="group.html">Group</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="funding.html">Funding</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>External Links</h4>
+        <ul>
+          <li><a href="https://medicine.buffalo.edu/departments/biomedical-informatics.html" target="_blank">Dept. of Biomedical Informatics</a></li>
+          <li><a href="https://medicine.buffalo.edu" target="_blank">Jacobs School of Medicine</a></li>
+          <li><a href="https://www.buffalo.edu" target="_blank">University at Buffalo</a></li>
+          <li><a href="https://medicine.buffalo.edu/faculty/profile.html?ubit=zmfalls" target="_blank">Faculty Profile</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Falls Informatics Group · University at Buffalo</p>
+      <p>Department of Biomedical Informatics · Jacobs School of Medicine &amp; Biomedical Sciences</p>
+    </div>
+  </div>
+</footer>
+
+<div class="ub-stripe"></div>
+
+<script>
+  function filterPubs(cat, btn) {
+    document.querySelectorAll('.pub-filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.pub-item').forEach(item => {
+      const cats = item.dataset.cat ? item.dataset.cat.split(' ') : [];
+      item.hidden = (cat !== 'all' && !cats.includes(cat));
+    });
+    document.querySelectorAll('.pub-year-group').forEach(group => {
+      const visible = group.querySelectorAll('.pub-item:not([hidden])').length;
+      group.hidden = (visible === 0);
+    });
+  }
+</script>
+
+</body>
+</html>
